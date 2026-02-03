@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate dynamic ASCII-style README for GitHub profile
-Fetches live stats from GitHub API and updates README.md
+Generate dynamic ASCII-style README with PHOTO SUPPORT
+This version includes your actual GitHub profile picture!
 """
 
 import os
@@ -10,13 +10,33 @@ from datetime import datetime, date
 
 # Configuration
 GITHUB_USERNAME = "YOUR_USERNAME_HERE"  # Replace with your GitHub username
-GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')  # Set in GitHub Actions secrets
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
 # Your personal info
-YOUR_NAME = "OLIVIA [LAST]"  # Replace with your full name
+YOUR_NAME = "OLIVIA [LAST]"
 YOUR_SCHOOL = "USC CS/Neuro '26"
-YOUR_BIRTH_DATE = date(2004, 1, 1)  # Replace with your birthdate for age calculation
+YOUR_BIRTH_DATE = date(2004, 1, 1)
 YOUR_SPECIALTY = "Healthcare ML, Time Series"
+
+# PHOTO OPTIONS - Choose one of these methods:
+# Option 1: Use GitHub profile picture (RECOMMENDED)
+USE_GITHUB_AVATAR = True  # Set to True to use your GitHub profile pic
+
+# Option 2: Use custom image URL
+CUSTOM_IMAGE_URL = ""  # Put your image URL here if not using GitHub avatar
+
+# Option 3: Use ASCII art
+ASCII_ART_PHOTO = """
+      @@@@@@@@@@@
+    @@###########@@
+   @####       ####@
+  @###  @   @  ###@
+  @###     <    ###@
+  @####  \_/  ####@
+   @#############@
+    @###########@
+      @@@@@@@@@
+"""  # Replace with your ASCII art
 
 def calculate_age(birth_date):
     """Calculate current age from birthdate"""
@@ -60,7 +80,7 @@ def get_github_stats(username, token):
             
             # Get language statistics
             for repo in repos:
-                if not repo.get('fork', False):  # Skip forked repos
+                if not repo.get('fork', False):
                     lang_url = repo.get('languages_url')
                     if lang_url:
                         lang_response = requests.get(lang_url, headers=headers)
@@ -68,17 +88,16 @@ def get_github_stats(username, token):
                             languages = lang_response.json()
                             for lang, bytes_count in languages.items():
                                 stats['languages'][lang] = stats['languages'].get(lang, 0) + bytes_count
-                                stats['loc'] += bytes_count // 50  # Rough estimate: 50 chars per line
+                                stats['loc'] += bytes_count // 50
         
-        # Get commit count (approximate from events API)
+        # Get commit count
         events_url = f'https://api.github.com/users/{username}/events/public?per_page=100'
         events_response = requests.get(events_url, headers=headers)
         if events_response.status_code == 200:
             events = events_response.json()
             push_events = [e for e in events if e.get('type') == 'PushEvent']
             stats['commits'] = sum(len(e.get('payload', {}).get('commits', [])) for e in push_events)
-            # This is just recent commits, multiply by estimate
-            stats['commits'] = stats['commits'] * 50  # Rough multiplier for total commits
+            stats['commits'] = stats['commits'] * 50
         
     except Exception as e:
         print(f"Error fetching GitHub stats: {e}")
@@ -95,16 +114,46 @@ def format_number(num):
     return f"{num:,}"
 
 def generate_readme(stats):
-    """Generate the ASCII README content"""
+    """Generate the ASCII README content with PHOTO"""
     
     age = calculate_age(YOUR_BIRTH_DATE)
     top_langs = get_top_languages(stats['languages'])
     langs_str = ", ".join(top_langs) if top_langs else "Python, PyTorch, JavaScript"
     
-    # Calculate days coding (replace with your actual start date)
-    start_date = date(2020, 9, 1)  # Example: started coding Sept 2020
+    # Calculate days coding
+    start_date = date(2020, 9, 1)
     days_coding = (date.today() - start_date).days
     
+    # Determine which photo method to use
+    photo_section = ""
+    
+    if USE_GITHUB_AVATAR:
+        # Use actual GitHub profile picture
+        photo_section = f"""
+
+<div align="center">
+
+<img src="https://github.com/{GITHUB_USERNAME}.png" width="280" style="border-radius: 10px; border: 3px solid #58a6ff;" />
+
+</div>
+
+"""
+    elif CUSTOM_IMAGE_URL:
+        # Use custom image URL
+        photo_section = f"""
+
+<div align="center">
+
+<img src="{CUSTOM_IMAGE_URL}" width="280" style="border-radius: 10px; border: 3px solid #58a6ff;" />
+
+</div>
+
+"""
+    else:
+        # Use ASCII art - embedded in the Model Card
+        photo_section = ""  # ASCII is already in the card below
+    
+    # Generate the README
     readme_content = f"""```ascii
                                             ██████╗ ██╗     ██╗██╗   ██╗██╗ █████╗ 
                                            ██╔═══██╗██║     ██║██║   ██║██║██╔══██╗
@@ -112,32 +161,33 @@ def generate_readme(stats):
                                            ██║   ██║██║     ██║╚██╗ ██╔╝██║██╔══██║
                                            ╚██████╔╝███████╗██║ ╚████╔╝ ██║██║  ██║
                                             ╚═════╝ ╚══════╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═╝
-
-
+```
+{photo_section}
+```ascii
 ╔═══════════════════════════════════════════════════════════╗           {YOUR_NAME.split()[0].lower()}@github
 ║                                                           ║           ───────────────────────────────────────────────────────────────────────────
 ║                   MODEL CARD: v{datetime.now().strftime('%y')}                           ║           Model Type        : Full-Stack ML Engineer
 ║                                                           ║           Version           : {datetime.now().strftime('%Y.%m.%d')}
-║              ┌───────────────────────────────┐           ║           Training Data     : {YOUR_SCHOOL}
-║              │                               │           ║           Age               : {age} years
-║              │                               │           ║           Uptime            : {days_coding:,} days coding
-║              │                               │           ║           Packages          : {stats['repos']} repositories
-║              │                               │           ║           Shell             : bash, zsh, python
-║              │        [Your Photo]           │           ║           Resolution        : 98% RMSE improvement ⚡
-║              │                               │           ║           IDE               : VSCode, Jupyter, PyCharm
-║              │                               │           ║           WM                : GitHub Actions
-║              │                               │           ║           Theme             : Tokyo Night / Gruvbox
-║              │                               │           ║           CPU               : {YOUR_SPECIALTY}
-║              └───────────────────────────────┘           ║                                 └─ Time Series Forecasting
-║                                                           ║                                 └─ Deep Learning Research  
-║              {YOUR_NAME:^57} ║                                 └─ Full-Stack Development
-║              {YOUR_SCHOOL:^57} ║                                 └─ Healthcare Analytics
-║                                                           ║           GPU               : CUDA-accelerated PyTorch
-║   Specialization: {YOUR_SPECIALTY:<38} ║           Memory            : {format_number(stats['commits'])} commits
-║                                                           ║           Disk              : {format_number(stats['loc'])} lines of code
-║   Status: ✓ PRODUCTION READY                             ║           Network           : ★ {stats['stars']} GitHub stars
-║                                                           ║           Languages         : {langs_str}
-╚═══════════════════════════════════════════════════════════╝           Followers         : {stats['followers']} | Following: {stats['following']}
+║                                                           ║           Training Data     : {YOUR_SCHOOL}
+║              {YOUR_NAME:^57} ║           Age               : {age} years
+║              {YOUR_SCHOOL:^57} ║           Uptime            : {days_coding:,} days coding
+║                                                           ║           Packages          : {stats['repos']} repositories
+║   Specialization: {YOUR_SPECIALTY:<38} ║           Shell             : bash, zsh, python
+║                                                           ║           Resolution        : 98% RMSE improvement ⚡
+║   Status: ✓ PRODUCTION READY                             ║           IDE               : VSCode, Jupyter, PyCharm
+║                                                           ║           WM                : GitHub Actions
+╚═══════════════════════════════════════════════════════════╝           Theme             : Tokyo Night / Gruvbox
+                                                                        CPU               : {YOUR_SPECIALTY}
+                                                                                              └─ Time Series Forecasting
+                                                                                              └─ Deep Learning Research  
+                                                                                              └─ Full-Stack Development
+                                                                                              └─ Healthcare Analytics
+                                                                        GPU               : CUDA-accelerated PyTorch
+                                                                        Memory            : {format_number(stats['commits'])} commits
+                                                                        Disk              : {format_number(stats['loc'])} lines of code
+                                                                        Network           : ★ {stats['stars']} GitHub stars
+                                                                        Languages         : {langs_str}
+                                                                        Followers         : {stats['followers']} | Following: {stats['following']}
 
                                                                         ████████████████████████████████████████████████████████████████████████████
 ```
@@ -270,6 +320,13 @@ def main():
         f.write(readme)
     
     print("✓ README.md updated successfully!")
+    
+    if USE_GITHUB_AVATAR:
+        print(f"\n📸 Using GitHub profile picture from: https://github.com/{GITHUB_USERNAME}.png")
+    elif CUSTOM_IMAGE_URL:
+        print(f"\n📸 Using custom image from: {CUSTOM_IMAGE_URL}")
+    else:
+        print("\n🎨 Using ASCII art for photo")
 
 if __name__ == '__main__':
     main()
