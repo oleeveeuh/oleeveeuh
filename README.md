@@ -5,32 +5,41 @@
                                            ██║   ██║██║     ██║╚██╗ ██╔╝██║██╔══██║
                                            ╚██████╔╝███████╗██║ ╚████╔╝ ██║██║  ██║
                                             ╚═════╝ ╚══════╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═╝
+```
 
 
+<div align="center">
+
+<img src="https://github.com/YOUR_USERNAME_HERE.png" width="280" style="border-radius: 10px; border: 3px solid #58a6ff;" />
+
+</div>
+
+
+```ascii
 ╔═══════════════════════════════════════════════════════════╗           olivia@github
 ║                                                           ║           ───────────────────────────────────────────────────────────────────────────
 ║                   MODEL CARD: v26                           ║           Model Type        : Full-Stack ML Engineer
 ║                                                           ║           Version           : 2026.02.03
-║              ┌───────────────────────────────┐           ║           Training Data     : USC CS/Neuro '26
-║              │                               │           ║           Age               : 22 years
-║              │                               │           ║           Uptime            : 1,981 days coding
-║              │                               │           ║           Packages          : 0 repositories
-║              │                               │           ║           Shell             : bash, zsh, python
-║              │        [Your Photo]           │           ║           Resolution        : 98% RMSE improvement ⚡
-║              │                               │           ║           IDE               : VSCode, Jupyter, PyCharm
-║              │                               │           ║           WM                : GitHub Actions
-║              │                               │           ║           Theme             : Tokyo Night / Gruvbox
-║              │                               │           ║           CPU               : Healthcare ML, Time Series
-║              └───────────────────────────────┘           ║                                 └─ Time Series Forecasting
-║                                                           ║                                 └─ Deep Learning Research  
-║                                    OLIVIA [LAST]                       ║                                 └─ Full-Stack Development
-║                                  USC CS/Neuro '26                      ║                                 └─ Healthcare Analytics
-║                                                           ║           GPU               : CUDA-accelerated PyTorch
-║   Specialization: Healthcare ML, Time Series             ║           Memory            : 0 commits
-║                                                           ║           Disk              : 0 lines of code
-║   Status: ✓ PRODUCTION READY                             ║           Network           : ★ 0 GitHub stars
-║                                                           ║           Languages         : Python, PyTorch, JavaScript
-╚═══════════════════════════════════════════════════════════╝           Followers         : 0 | Following: 0
+║                                                           ║           Training Data     : USC CS/Neuro '26
+║                                    OLIVIA [LAST]                       ║           Age               : 22 years
+║                                  USC CS/Neuro '26                      ║           Uptime            : 1,981 days coding
+║                                                           ║           Packages          : 0 repositories
+║   Specialization: Healthcare ML, Time Series             ║           Shell             : bash, zsh, python
+║                                                           ║           Resolution        : 98% RMSE improvement ⚡
+║   Status: ✓ PRODUCTION READY                             ║           IDE               : VSCode, Jupyter, PyCharm
+║                                                           ║           WM                : GitHub Actions
+╚═══════════════════════════════════════════════════════════╝           Theme             : Tokyo Night / Gruvbox
+                                                                        CPU               : Healthcare ML, Time Series
+                                                                                              └─ Time Series Forecasting
+                                                                                              └─ Deep Learning Research  
+                                                                                              └─ Full-Stack Development
+                                                                                              └─ Healthcare Analytics
+                                                                        GPU               : CUDA-accelerated PyTorch
+                                                                        Memory            : 0 commits
+                                                                        Disk              : 0 lines of code
+                                                                        Network           : ★ 0 GitHub stars
+                                                                        Languages         : Python, PyTorch, JavaScript
+                                                                        Followers         : 0 | Following: 0
 
                                                                         ████████████████████████████████████████████████████████████████████████████
 ```
