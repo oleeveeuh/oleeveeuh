@@ -20,7 +20,9 @@ YOUR_SPECIALTY = "Healthcare ML, Time Series Forecasting"
 
 # Your ASCII art photo - paste yours here
 YOUR_ASCII_PHOTO = r"""
-                       _,╔▓██████████████▄;,,_             
+     
+            ,,,_,,,___                     
+       _,╔▓██████████████▄;,,_             
       _██████████████████████▄,             
      :██████▌╙╙▀████████████████_           
     _█████`       ``▓████████████_          
