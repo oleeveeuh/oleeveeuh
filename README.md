@@ -7,14 +7,6 @@
                                             ╚═════╝ ╚══════╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═╝
 ```
 
-
-<div align="center">
-
-<img src="https://github.com/YOUR_USERNAME_HERE.png" width="280" style="border-radius: 10px; border: 3px solid #58a6ff;" />
-
-</div>
-
-
 ```ascii
 ╔═══════════════════════════════════════════════════════════╗           olivia@github
 ║                                                           ║           ───────────────────────────────────────────────────────────────────────────
