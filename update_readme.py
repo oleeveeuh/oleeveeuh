@@ -9,13 +9,13 @@ import requests
 from datetime import datetime, date
 
 # Configuration
-GITHUB_USERNAME = "YOUR_USERNAME_HERE"  # Replace with your GitHub username
+GITHUB_USERNAME = "oleeveeuh"  # Replace with your GitHub username
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')  # Set in GitHub Actions secrets
 
 # Your personal info
-YOUR_NAME = "OLIVIA [LAST]"  # Replace with your full name
-YOUR_SCHOOL = "USC CS/Neuro '26"
-YOUR_BIRTH_DATE = date(2004, 1, 1)  # Replace with your birthdate for age calculation
+YOUR_NAME = "OLIVIA Liau"  # Replace with your full name
+YOUR_SCHOOL = "USC CS + Applied DS '27"
+YOUR_BIRTH_DATE = date(2006, 1, 30)  # Replace with your birthdate for age calculation
 YOUR_SPECIALTY = "Healthcare ML, Time Series"
 
 def calculate_age(birth_date):
