@@ -9,13 +9,13 @@ import requests
 from datetime import datetime, date
 
 # Configuration
-GITHUB_USERNAME = "oleeveeuh"  # Replace with your GitHub username
+GITHUB_USERNAME = "YOUR_USERNAME_HERE"  # Replace with your GitHub username
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')  # Set in GitHub Actions secrets
 
 # Your personal info
-YOUR_NAME = "OLIVIA Liau"  # Replace with your full name
-YOUR_SCHOOL = "USC CS + Applied DS '27"
-YOUR_BIRTH_DATE = date(2006, 1, 30)  # Replace with your birthdate for age calculation
+YOUR_NAME = "OLIVIA [LAST]"  # Replace with your full name
+YOUR_SCHOOL = "USC CS/Neuro '26"
+YOUR_BIRTH_DATE = date(2004, 1, 1)  # Replace with your birthdate for age calculation
 YOUR_SPECIALTY = "Healthcare ML, Time Series"
 
 def calculate_age(birth_date):
@@ -106,31 +106,42 @@ def generate_readme(stats):
     days_coding = (date.today() - start_date).days
     
     readme_content = f"""```ascii
-╔════════════════════════════╗                    {YOUR_NAME.split()[0].lower()}@github
-║                            ║                    ─────────────────────────────────────────────
-║      MODEL CARD: v26       ║                    Model Type      : Full-Stack ML Engineer
-║                            ║                    Version         : {datetime.now().strftime('%Y.%m.%d')}
-║    ┌─────────────────┐    ║                    Training Data   : {YOUR_SCHOOL}
-║    │                 │    ║                    Age             : {age} years
-║    │   [Your Photo]  │    ║                    Uptime          : {days_coding:,} days coding
-║    │                 │    ║                    Packages        : {stats['repos']} repositories
-║    └─────────────────┘    ║                    Shell           : bash, zsh, python
-║                            ║                    Resolution     : 98% RMSE improvement
-║   {YOUR_NAME:<26} ║                    IDE            : VSCode, Jupyter, PyCharm
-║   {YOUR_SCHOOL:<26} ║                    WM             : GitHub Actions
-║                            ║                    Theme          : Tokyo Night / Gruvbox
-║   Status: PROD READY ✓     ║                    CPU            : {YOUR_SPECIALTY}
-║                            ║                                      └─ Time Series Analysis
-╚════════════════════════════╝                                      └─ Deep Learning
-                                                                     └─ Full-Stack Dev
-                                                   GPU            : CUDA-accelerated PyTorch
-                                                   Memory         : {format_number(stats['commits'])} commits
-                                                   Disk           : {format_number(stats['loc'])} lines of code
-                                                   Network        : ★ {stats['stars']} GitHub stars
-                                                   Languages      : {langs_str}
+                                            ██████╗ ██╗     ██╗██╗   ██╗██╗ █████╗ 
+                                           ██╔═══██╗██║     ██║██║   ██║██║██╔══██╗
+                                           ██║   ██║██║     ██║██║   ██║██║███████║
+                                           ██║   ██║██║     ██║╚██╗ ██╔╝██║██╔══██║
+                                           ╚██████╔╝███████╗██║ ╚████╔╝ ██║██║  ██║
+                                            ╚═════╝ ╚══════╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═╝
 
-                                                   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
+╔═══════════════════════════════════════════════════════════╗           {YOUR_NAME.split()[0].lower()}@github
+║                                                           ║           ───────────────────────────────────────────────────────────────────────────
+║                   MODEL CARD: v{datetime.now().strftime('%y')}                           ║           Model Type        : Full-Stack ML Engineer
+║                                                           ║           Version           : {datetime.now().strftime('%Y.%m.%d')}
+║              ┌───────────────────────────────┐           ║           Training Data     : {YOUR_SCHOOL}
+║              │                               │           ║           Age               : {age} years
+║              │                               │           ║           Uptime            : {days_coding:,} days coding
+║              │                               │           ║           Packages          : {stats['repos']} repositories
+║              │                               │           ║           Shell             : bash, zsh, python
+║              │        [Your Photo]           │           ║           Resolution        : 98% RMSE improvement ⚡
+║              │                               │           ║           IDE               : VSCode, Jupyter, PyCharm
+║              │                               │           ║           WM                : GitHub Actions
+║              │                               │           ║           Theme             : Tokyo Night / Gruvbox
+║              │                               │           ║           CPU               : {YOUR_SPECIALTY}
+║              └───────────────────────────────┘           ║                                 └─ Time Series Forecasting
+║                                                           ║                                 └─ Deep Learning Research  
+║              {YOUR_NAME:^57} ║                                 └─ Full-Stack Development
+║              {YOUR_SCHOOL:^57} ║                                 └─ Healthcare Analytics
+║                                                           ║           GPU               : CUDA-accelerated PyTorch
+║   Specialization: {YOUR_SPECIALTY:<38} ║           Memory            : {format_number(stats['commits'])} commits
+║                                                           ║           Disk              : {format_number(stats['loc'])} lines of code
+║   Status: ✓ PRODUCTION READY                             ║           Network           : ★ {stats['stars']} GitHub stars
+║                                                           ║           Languages         : {langs_str}
+╚═══════════════════════════════════════════════════════════╝           Followers         : {stats['followers']} | Following: {stats['following']}
+
+                                                                        ████████████████████████████████████████████████████████████████████████████
 ```
+
 
 ---
 
@@ -140,36 +151,101 @@ I'm a Computer Science student at USC with a Neuroscience minor, passionate abou
 
 **Recent Work:**
 - 🧠 Physiological monitoring dashboard for orthostatic hypotension
-- 📊 RetailPRED forecasting system (98% improvement over baselines)
+- 📊 RetailPRED forecasting system (98% improvement over baselines)  
 - 🔬 ML research in Parkinson's disease detection & DBS prediction
 
 **Currently:**
 - 🎯 Applying for data science/ML roles in SF
-- 💼 Amazon externship: workforce analytics
+- 💼 Amazon externship: workforce analytics  
 - 🚀 Building healthcare ML pipelines with GroupKFold CV & SHAP
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Main Skills
 
-**Languages:** Python • JavaScript • Java • C • SQL • R  
-**ML/DS:** PyTorch • scikit-learn • TensorFlow • Pandas • NumPy • SHAP  
-**Web:** React • Node.js • Express • HTML/CSS  
-**Tools:** Docker • Git • AWS • Linux • Jupyter  
-**Databases:** PostgreSQL • MongoDB • MySQL  
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+
+### ML/Data Science
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+
+### Web Development
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### Tools & Infrastructure
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 
 ---
 
-## 📫 Connect
+## 📚 Publications & Writing
 
-- 💼 [LinkedIn](https://linkedin.com/in/your-profile)
-- 🌐 [Portfolio](https://your-portfolio.com)
-- 📧 [Email](mailto:your.email@usc.edu)
+I share my knowledge and insights on:
+
+<div align="center">
+
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-username)
+[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/your-username)
+
+</div>
+
+**Topics I write about:**
+- 💼 Career insights and tips for breaking into tech
+- 🤖 AI, machine learning, and healthcare applications
+- 🔬 Research insights and technical deep-dives
+- 💡 Personal thoughts on emerging technologies
+
+---
+
+## 📫 Connect With Me!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@usc.edu)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/{GITHUB_USERNAME})
+
+</div>
+
+---
+
+## 💼 Employer?
+
+<div align="center">
+
+### 📄 **[Download My Resume](https://github.com/{GITHUB_USERNAME}/resume/raw/main/resume.pdf)**
+
+*Currently seeking full-time data science and ML engineering opportunities*
+
+**Important:** I'm actively applying for roles in SF Bay Area focusing on healthcare ML and time series forecasting.
+
+</div>
 
 ---
 
 <div align="center">
-  <sub>Last updated: {datetime.now().strftime('%B %d, %Y')} | Auto-updated daily via GitHub Actions</sub>
+
+![Profile Views](https://komarev.com/ghpvc/?username={GITHUB_USERNAME}&color=blueviolet&style=for-the-badge)
+
+<sub>Last updated: {datetime.now().strftime('%B %d, %Y')} • Auto-updated daily via GitHub Actions</sub>
+
 </div>
 """
     
