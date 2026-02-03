@@ -28,7 +28,7 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
    j██████         '"╙█▓███████████████████    
          GPU             : CUDA-accelerated PyTorch
          Memory          : 0 commits
-         Disk            : 276,212 lines of code
+         Disk            : 276,235 lines of code
          ████████████████████████████████████████████████████████████████████████████████
 ```
 
@@ -73,6 +73,21 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 ║  → github.com/oleeveeuh/WPI-UMASS-TOD           ║  ║  → github.com/oleeveeuh/CURVE-ICON-DBSO         ║
 ╚═════════════════════════════════════════════════╝  ╚═════════════════════════════════════════════════╝
 ```
+```
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+&nbsp;&nbsp;&nbsp;&nbsp;
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-00C4CC?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADRSURBVCiRhdI9SwNBEAbgZxMEwUIQbPwBFoJYWFhYWNhYWVhZWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhY&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+</div>
+
 
 <div align="center">
 <img src="https://via.placeholder.com/400x200/4CAF50/FFFFFF?text=Model+Architecture" width="45%" />
