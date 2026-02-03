@@ -1,7 +1,6 @@
 ```ascii
 
 
-
 ,        olivia@github
                                         ,    ────────────────────────────────────────────────────────────────────────────────
             ,,,_,,,___                         Name            : OLIVIA LIAU
@@ -28,51 +27,71 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
 _   ╓█████   `██   ,╣╬╬▓████████████████       
 ▒╓,:██████H       [█▓▓╣▓█████████████████╦     GPU             : CUDA-accelerated PyTorch
    j██████         '"╙█▓███████████████████    Memory          : 0 commits
-         Disk            : 276,235 lines of code
+         Disk            : 276,448 lines of code
          ████████████████████████████████████████████████████████████████████████████████
 ```
 
 
 ---
 
-## Featured Projects
+##  Featured Projects
 
 ```ascii
-╔══════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║                                      ⬢ MOST RECENT PROJECT ⬢                                         ║
-╠══════════════════════════════════════════════════════════════════════════════════════════════════════╣
-║                                                                                                      ║
-║  [TAG] [PROJECT NAME HERE]                                                                           ║
-║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║                                                                                                      ║
-║  Description: [Add your project description here - what it does and why it matters]                 ║
-║                                                                                                      ║
-║  Key Achievements:                                                                                   ║
-║     ▸ [Achievement 1 - quantify impact if possible]                                                 ║
-║     ▸ [Achievement 2 - mention specific metrics or improvements]                                    ║
-║     ▸ [Achievement 3 - highlight technical innovation]                                              ║
-║                                                                                                      ║
-║  Tech Stack: [Python, PyTorch, React, etc.]                                                          ║
-║                                                                                                      ║
-║  Links: [GitHub Repo] • [Live Demo] • [Documentation]                                               ║
-║                                                                                                      ║
-╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
+┌────────────────────────────────────────────────────────────────────────────┐
+│                         MOST RECENT PROJECT                                │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│  [TAG] [PROJECT NAME HERE]                                                 │
+│  ──────────────────────────────────────────────────────────────────────    │
+│                                                                            │
+│  Description: [Add your project description here]                          │
+│                                                                            │
+│  Key Achievements:                                                         │
+│     • [Achievement 1 - quantify impact if possible]                        │
+│     • [Achievement 2 - mention specific metrics]                           │
+│     • [Achievement 3 - highlight technical innovation]                     │
+│                                                                            │
+│  Tech Stack: [Python, PyTorch, React, etc.]                                │
+│                                                                            │
+│  Links: [GitHub Repo] • [Live Demo] • [Documentation]                     │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
-╔═════════════════════════════════════════════════╗  ╔═════════════════════════════════════════════════╗
-║  [ML] WPI-UMASS TOD Prediction                  ║  ║  [ML] ICON-DBSO Prediction                      ║
-╠═════════════════════════════════════════════════╣  ╠═════════════════════════════════════════════════╣
-║  Gene expression → time-of-death regression     ║  ║  Multimodal EEG + clinical → DBS outcomes       ║
-║                                                 ║  ║                                                 ║
-║  ▸ AutoEncoder for dimensionality reduction     ║  ║  ▸ 71% accuracy w/ stratified GroupKFold CV     ║
-║  ▸ CNN regression on 20k+ genes, 146 samples    ║  ║  ▸ 108 engineered features (EEG + clinical)     ║
-║  ▸ 1-hour MAE; 68% ↓ vs PCA+LinearRegression    ║  ║  ▸ SHAP TreeExplainer for feature importance    ║
-║  ▸ Benchmarked 700+ configs (PCA/UMAP/NMF)      ║  ║  ▸ Identified top-10 neurological biomarkers    ║
-║                                                 ║  ║                                                 ║
-║  Tech: AutoEncoder, CNN, GridSearchCV           ║  ║  Tech: PyTorch, SHAP, scikit-learn, Pandas      ║
-║                                                 ║  ║                                                 ║
-║  → github.com/oleeveeuh/WPI-UMASS-TOD           ║  ║  → github.com/oleeveeuh/CURVE-ICON-DBSO         ║
-╚═════════════════════════════════════════════════╝  ╚═════════════════════════════════════════════════╝
+<div align="center">
 
+### Project Demo
+
+[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+*Click to watch the demo • Replace YOUR_VIDEO_ID with your actual YouTube video ID*
+
+</div>
+
+
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  MODEL CARD: WPI-UMASS TOD Prediction                                               │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│  Model Type         : Time-of-Death Regression (AutoEncoder-CNN)                    │
+│  Domain             : Bioinformatics, Gene Expression Analysis                      │
+│  Task               : Predict time-of-death from 20k+ gene expression features      │
+│                                                                                      │
+│  Performance Metrics:                                                                │
+│    • MAE: 1-hour prediction window                                                  │
+│    • 68% improvement over PCA+LinearRegression baseline                             │
+│    • Benchmarked 700+ model configurations                                           │
+│                                                                                      │
+│  Training Data      : 146 samples × 20,000+ genes                                   │
+│  Architecture       : AutoEncoder (dimensionality reduction) --> CNN (regression)     │
+│  Validation         : Cross-validation with PCA/UMAP/NMF comparison                 │
+│                                                                                      │
+│  Intended Use       : Research, drug timing optimization                            │
+│  Limitations        : Limited sample size, requires gene expression data            │
+│                                                                                      │
+│  Publication        : BIOINFORMATICS 2026                                           │
+│  Repository         : github.com/oleeveeuh/WPI-UMASS-TOD                            │
+└──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 <div align="center">
@@ -81,64 +100,203 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-&nbsp;&nbsp;&nbsp;&nbsp;
+
+</div>
+
+```ascii
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  MODEL CARD: ICON-DBSO Prediction                                                   │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│  Model Type         : DBS Outcome Binary Classifier                                 │
+│  Domain             : Healthcare ML, Parkinson's Disease Treatment                  │
+│  Task               : Predict deep-brain stimulation treatment outcomes             │
+│                                                                                      │
+│  Performance Metrics:                                                                │
+│    • Accuracy: 71% with stratified GroupKFold CV                                    │
+│    • Feature importance analysis via SHAP TreeExplainer                             │
+│    • Identified top-10 neurological biomarkers                                      │
+│                                                                                      │
+│  Training Data      : Multimodal EEG recordings + clinical assessments              │
+│  Features           : 108 engineered features (temporal, spectral, clinical)        │
+│  Architecture       : Gradient boosting with SHAP explainability layer              │
+│                                                                                      │
+│  Intended Use       : Clinical decision support, treatment planning                 │
+│  Limitations        : Requires EEG data, physician oversight necessary              │
+│                                                                                      │
+│  Ethics             : Explainability prioritized for physician trust                │
+│  Repository         : github.com/oleeveeuh/CURVE-ICON-DBSO                          │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![SHAP](https://img.shields.io/badge/SHAP-00C4CC?style=flat-square&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADRSURBVCiRhdI9SwNBEAbgZxMEwUIQbPwBFoJYWFhYWNhYWVhZWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhY&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-00C4CC?style=flat-square&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+</div>
+
+```ascii
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  MODEL CARD: MultiSDAR PD Classification                                            │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│  Model Type         : Multimodal Parkinson's Disease Classifier                     │
+│  Domain             : Computer Vision + Time Series, Healthcare Diagnostics         │
+│  Task               : Detect Parkinson's Disease from sensor + imaging data         │
+│                                                                                      │
+│  Performance Metrics:                                                                │
+│    • Time-series: 90% accuracy on accelerometer data                                │
+│    • Imaging: 72% accuracy on MRI scans (ResNet18 transfer learning)               │
+│    • 18% AUC improvement via PCA + HOG feature extraction                           │
+│                                                                                      │
+│  Training Data      : Limited samples, augmented via SMOTE oversampling             │
+│  Architecture       : Dual-pathway (ResNet18 for imaging + LSTM for time series)   │
+│  Preprocessing      : HOG descriptors, PCA dimensionality reduction                 │
+│                                                                                      │
+│  Intended Use       : Early PD screening, research applications                     │
+│  Limitations        : Class imbalance addressed via SMOTE, small sample size        │
+│                                                                                      │
+│  Repository         : github.com/oleeveeuh/MoE-MultiSDAR-PD                         │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
 </div>
 
+```ascii
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  MODEL CARD: Hope Services Analytics                                                │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│  Model Type         : Supervised Anomaly Detection (Random Forest)                  │
+│  Domain             : Pediatric Healthcare, Risk Stratification                     │
+│  Task               : Flag high-risk treatment cases for manual review              │
+│                                                                                      │
+│  Performance Metrics:                                                                │
+│    • Accuracy: 71% on high-risk case identification                                 │
+│    • Precision: 0.70 (minimize false positives)                                     │
+│    • 60% reduction in manual review time                                            │
+│                                                                                      │
+│  Training Data      : 248 patients, 896 clinical assessments (2+ years)            │
+│  Features           : Behavioral health metrics, treatment patterns                 │
+│  Architecture       : Random Forest with automated risk scoring pipeline            │
+│                                                                                      │
+│  Intended Use       : Clinical workflow optimization, safety net                    │
+│  Limitations        : Augments human review, does not replace clinical judgment     │
+│                                                                                      │
+│  Impact             : 42 high-risk cases flagged (7.5% of total assessments)       │
+│  Status             : Private Repository                                            │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+```
 
 <div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+
+</div>
+
+```ascii
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  SYSTEM CARD: RetailPRED                                                            │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│  System Type        : Production MLOps Pipeline                                     │
+│  Domain             : Retail Analytics, Demand Forecasting                          │
+│  Task               : End-to-end weekly demand prediction with auto-retraining      │
+│                                                                                      │
+│  Performance Metrics:                                                                │
+│    • Historical accuracy: 90.9% across 11 product categories                        │
+│    • 10x performance improvement via ablation testing                               │
+│    • 2,214 validated predictions generated                                          │
+│                                                                                      │
+│  Training Data      : Time-series retail sales (73 engineered lag/rolling features) │
+│  Architecture       : Ensemble (Random Forest + LightGBM)                           │
+│  Infrastructure     : GCP, Airflow DAGs, Docker containers                          │
+│  Interface          : Dual-mode (React dashboard + Tableau BI)                      │
+│                                                                                      │
+│  Deployment         : Automated weekly retraining pipeline                          │
+│  Monitoring         : Real-time forecast validation, drift detection                │
+│                                                                                      │
+│  Live Demo          : retail-pred.vercel.app                                        │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apache-airflow&logoColor=white)
+
+</div>
+
+```ascii
+┌──────────────────────────────────────────────────────────────────────────────────────┐
+│  SYSTEM CARD: ReviewInsight AI                                                      │
+├──────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│  System Type        : RAG-powered NLP Analytics Pipeline                            │
+│  Domain             : Workforce Analytics, Employee Retention                       │
+│  Task               : Extract actionable retention insights from employee reviews   │
+│                                                                                      │
+│  Performance Metrics:                                                                │
+│    • F1-score: 81% on binary retention risk classification                          │
+│    • Retrieval precision: 90%+ via cosine similarity search                         │
+│    • Key finding: Overtime identified as top retention risk factor                  │
+│                                                                                      │
+│  Training Data      : 350+ employee reviews (Glassdoor, Reddit, internal surveys)  │
+│  Architecture       : GPT-4 + OpenAI Embeddings + K-means clustering                │
+│  Pipeline           : RAG retrieval --> Thematic coding --> A/B validation              │
+│                                                                                      │
+│  Business Impact    : Influenced warehouse culture & overtime policy updates        │
+│  Validation         : A/B testing on classification accuracy                        │
+│                                                                                      │
+│  Client             : Amazon Externship Project                                     │
+└──────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![GPT--4](https://img.shields.io/badge/GPT--4-10A37F?style=flat-square&logo=openai&logoColor=white)
+
+</div>
+
+```ascii
+```
+
+<!-- Uncomment to add project images/demos
+<div align="center">
+
+### Project Visuals
+
+**WPI-UMASS & ICON-DBSO:**
 <img src="https://via.placeholder.com/400x200/4CAF50/FFFFFF?text=Model+Architecture" width="45%" />
 <img src="https://via.placeholder.com/400x200/2196F3/FFFFFF?text=SHAP+Feature+Importance" width="45%" />
-</div>
 
-```ascii
-╔═════════════════════════════════════════════════╗  ╔═════════════════════════════════════════════════╗
-║  [CV] MultiSDAR PD Classification               ║  ║  [ML] Hope Services Analytics                   ║
-╠═════════════════════════════════════════════════╣  ╠═════════════════════════════════════════════════╣
-║  Multimodal PD detection: time-series + imaging ║  ║  Supervised anomaly detection for pediatrics    ║
-║                                                 ║  ║                                                 ║
-║  ▸ 90% accuracy on accelerometer time-series    ║  ║  ▸ 71% accuracy w/ Random Forest classifier     ║
-║  ▸ ResNet18 + transfer learning on MRI scans    ║  ║  ▸ 248 patients, 896 clinical assessments       ║
-║  ▸ SMOTE oversampling for class imbalance       ║  ║  ▸ Automated risk stratification pipeline       ║
-║  ▸ PCA + HOG feature extraction; 18% ↑ AUC      ║  ║  ▸ Flagged 42 high-risk cases (precision: 0.7)  ║
-║                                                 ║  ║                                                 ║
-║  Tech: ResNet18, SMOTE, PCA, HOG, PyTorch       ║  ║  Tech: Random Forest, Pandas, feature eng       ║
-║                                                 ║  ║                                                 ║
-║  → github.com/oleeveeuh/MoE-MultiSDAR-PD        ║  ║  → Private Repository                           ║
-╚═════════════════════════════════════════════════╝  ╚═════════════════════════════════════════════════╝
-```
-
-<div align="center">
+**MultiSDAR & Hope Services:**
 <img src="https://via.placeholder.com/400x200/FF5722/FFFFFF?text=Accuracy+Comparison" width="45%" />
 <img src="https://via.placeholder.com/400x200/9C27B0/FFFFFF?text=Risk+Stratification" width="45%" />
-</div>
 
-```ascii
-╔═════════════════════════════════════════════════╗  ╔═════════════════════════════════════════════════╗
-║  [PROD] RetailPRED                              ║  ║  [NLP] ReviewInsight AI                         ║
-╠═════════════════════════════════════════════════╣  ╠═════════════════════════════════════════════════╣
-║  End-to-end MLOps for retail demand forecasting ║  ║  RAG + GPT-4 for employee feedback analysis     ║
-║                                                 ║  ║                                                 ║
-║  ▸ Ensemble: Random Forest + LightGBM (90.9%)   ║  ║  ▸ 81% F1-score on binary retention classifier  ║
-║  ▸ 73 lag/rolling features; 10x ↓ via ablation  ║  ║  ▸ 90%+ precision w/ cosine similarity search   ║
-║  ▸ GCP Airflow DAGs for weekly retraining       ║  ║  ▸ K-means clustering + thematic coding (GPT)   ║
-║  ▸ React + Tableau dual interface; 2.2k preds   ║  ║  ▸ 350+ Glassdoor/Reddit reviews vectorized     ║
-║                                                 ║  ║                                                 ║
-║  Tech: LightGBM, Airflow, GCP, Tableau, Docker  ║  ║  Tech: GPT-4, OpenAI Embeddings, K-means, A/B   ║
-║                                                 ║  ║                                                 ║
-║  → retail-pred.vercel.app (Live Demo)           ║  ║  → Amazon Externship Project                    ║
-╚═════════════════════════════════════════════════╝  ╚═════════════════════════════════════════════════╝
-```
-
-<div align="center">
+**RetailPRED & ReviewInsight:**
 <img src="https://via.placeholder.com/400x200/00BCD4/FFFFFF?text=Dashboard+Demo" width="45%" />
 <img src="https://via.placeholder.com/400x200/FFC107/000000?text=NLP+Pipeline" width="45%" />
-</div>
 
-```ascii
+</div>
+-->
 
 ---
 
@@ -149,16 +307,16 @@ I'm a Computer Science student at USC pursuing a Master's in Applied Data Scienc
 I enjoy working across the full ML pipeline—from messy data and feature engineering to evaluation, explainability, and deployment.
 
 **Recent Work:**
-- ▸ Drug timing prediction using gene expression data (AutoEncoder–CNN on 20k+ genes; 68% improvement over baseline)
-- ▸ Parkinson's disease detection and DBS outcome prediction using multimodal ML, CNNs, and SHAP explainability
-- ▸ RetailPRED: production-grade demand forecasting system with Airflow, GCP, and ensemble models
-- ▸ Pediatric health anomaly detection using Random Forests to flag high-risk treatment cases
+- • Drug timing prediction using gene expression data (AutoEncoder–CNN on 20k+ genes; 68% improvement over baseline)
+- • Parkinson's disease detection and DBS outcome prediction using multimodal ML, CNNs, and SHAP explainability
+- • RetailPRED: production-grade demand forecasting system with Airflow, GCP, and ensemble models
+- • Pediatric health anomaly detection using Random Forests to flag high-risk treatment cases
 
 **Currently:**
-- ▸ Applying for data science and machine learning roles
-- ▸ Amazon Business Analytics Extern: NLP, RAG pipelines, workforce analytics
-- ▸ Building production ML pipelines for time-series modeling with explainability
-- ▸ Exploring Kaggle-style competitions to sharpen fast iteration and feature engineering
+- • Applying for data science and machine learning roles
+- • Amazon Business Analytics Extern: NLP, RAG pipelines, workforce analytics
+- • Building production ML pipelines for time-series modeling with explainability
+- • Exploring Kaggle-style competitions to sharpen fast iteration and feature engineering
 
 ---
 
@@ -201,12 +359,20 @@ I enjoy working across the full ML pipeline—from messy data and feature engine
 
 ## 📚 Publications & Writing
 
+I share my knowledge and insights on:
+
 <div align="center">
 
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-username)
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/your-username)
 
 </div>
+
+**Topics I write about:**
+- 💼 Career insights and tips for breaking into tech
+- 🤖 AI, machine learning, and healthcare applications
+- 🔬 Research insights and technical deep-dives
+- 💡 Personal thoughts on emerging technologies
 
 ---
 
