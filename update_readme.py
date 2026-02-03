@@ -19,8 +19,8 @@ YOUR_BIRTH_DATE = date(2006, 1, 30)  # Adjust to your actual birthdate
 YOUR_SPECIALTY = "Healthcare ML, Time Series Forecasting"
 
 # Your ASCII art photo - paste yours here
-YOUR_ASCII_PHOTO = r"""
-            ,,,_,,,___                     
+YOUR_ASCII_PHOTO = 
+r"""
        _,╔▓██████████████▄;,,_             
       _██████████████████████▄,             
      :██████▌╙╙▀████████████████_           
@@ -44,7 +44,6 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
 _   ╓█████   `██   ,╣╬╬▓████████████████   
 ▒╓,:██████H       [█▓▓╣▓█████████████████╦ 
    j██████         '"╙█▓███████████████████
-       
 """
 
 def calculate_age(birth_date):
@@ -166,11 +165,6 @@ def generate_readme(stats):
         f"GPU             : CUDA-accelerated PyTorch",
         f"Memory          : {format_number(stats['commits'])} commits",
         f"Disk            : {format_number(stats['loc'])} lines of code",
-        "",
-        f"Network         : ★ {stats['stars']} GitHub stars",
-        f"Languages       : {langs_str}",
-        f"Connections     : {stats['followers']} followers, {stats['following']} following",
-        "",
         "█" * 80
     ]
     
@@ -221,16 +215,6 @@ def generate_readme(stats):
 ║                                                                                                      ║
 ╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ```
-
-# <div align="center">
-
-# ### 🎬 Project Demo
-
-# [![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-# *Click to watch the demo • Replace YOUR_VIDEO_ID with your actual YouTube video ID*
-
-# </div>
 
 
 ╔═════════════════════════════════════════════════╗  ╔═════════════════════════════════════════════════╗
