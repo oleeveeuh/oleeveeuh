@@ -2,32 +2,32 @@
 
 
 
-,,,_,,,___                         olivia@github
-       _,╔▓██████████████▄;,,_                 ────────────────────────────────────────────────────────────────────────────────
-      _██████████████████████▄,                 Name            : OLIVIA LIAU
-     :██████▌╙╙▀████████████████_               Education       : USC CS + Applied Data Science '27
-    _█████`       ``▓████████████_              Age             : 20 years
-    ╔████            ╙████████████▄_            Specialization  : Healthcare ML, Time Series Forecasting
-   ┌████▌             ╙█████████████,_          
-   ▓████▄,_       _,,╔▄██████████████ⁿ_        OS              : Full-Stack ML Engineer
-  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Kernel          : Python 3.11.x, PyTorch 2.x
- ┌███████▐█▄     -╓'██████████████████         Uptime          : 1,981 days coding
-_▓█████╙`         ``ⁿ¬` `▀████████████H        Packages        : 9 repositories
-`█████                   '▓████████████        Shell           : bash, zsh, python
-┌█████       ____ _       ╙▓███████████        
-▐██████,_   ``'` `         ╚▓██████████        Resolution      : 98% RMSE improvement ⚡
- ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       DE              : VSCode, Jupyter, PyCharm
-  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       WM              : GitHub Actions
-   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████       Theme           : Tokyo Night / Gruvbox
-    █████  █_         ,█████████████████       
-     ████   ███▄▄▄▓   ██████████████████       CPU             : Healthcare ML, Time Series Forecasting
-     █████  ██████   ╫▓██▓██████████████                         └─ Time Series Forecasting
-     █████   ████   ┌╠╠▓▓██████████████                          └─ Deep Learning Research
-_   ╓█████   `██   ,╣╬╬▓████████████████                         └─ Full-Stack Development
-▒╓,:██████H       [█▓▓╣▓█████████████████╦                       └─ Healthcare Analytics
-   j██████         '"╙█▓███████████████████    
-         GPU             : CUDA-accelerated PyTorch
-         Memory          : 0 commits
+,        olivia@github
+                                        ,    ────────────────────────────────────────────────────────────────────────────────
+            ,,,_,,,___                         Name            : OLIVIA LIAU
+       _,╔▓██████████████▄;,,_                 Education       : USC CS + Applied Data Science '27
+      _██████████████████████▄,                 Age             : 20 years
+     :██████▌╙╙▀████████████████_               Specialization  : Healthcare ML, Time Series Forecasting
+    _█████`       ``▓████████████_              
+    ╔████            ╙████████████▄_            OS              : Full-Stack ML Engineer
+   ┌████▌             ╙█████████████,_          Kernel          : Python 3.11.x, PyTorch 2.x
+   ▓████▄,_       _,,╔▄██████████████ⁿ_        Uptime          : 1,981 days coding
+  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Packages        : 9 repositories
+ ┌███████▐█▄     -╓'██████████████████         Shell           : bash, zsh, python
+_▓█████╙`         ``ⁿ¬` `▀████████████H        
+`█████                   '▓████████████        Resolution      : 98% RMSE improvement ⚡
+┌█████       ____ _       ╙▓███████████        DE              : VSCode, Jupyter, PyCharm
+▐██████,_   ``'` `         ╚▓██████████        WM              : GitHub Actions
+ ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       Theme           : Tokyo Night / Gruvbox
+  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       
+   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████       CPU             : Healthcare ML, Time Series Forecasting
+    █████  █_         ,█████████████████                         └─ Time Series Forecasting
+     ████   ███▄▄▄▓   ██████████████████                         └─ Deep Learning Research
+     █████  ██████   ╫▓██▓██████████████                         └─ Full-Stack Development
+     █████   ████   ┌╠╠▓▓██████████████                          └─ Healthcare Analytics
+_   ╓█████   `██   ,╣╬╬▓████████████████       
+▒╓,:██████H       [█▓▓╣▓█████████████████╦     GPU             : CUDA-accelerated PyTorch
+   j██████         '"╙█▓███████████████████    Memory          : 0 commits
          Disk            : 276,235 lines of code
          ████████████████████████████████████████████████████████████████████████████████
 ```
