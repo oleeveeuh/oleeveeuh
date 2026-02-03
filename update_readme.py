@@ -183,7 +183,7 @@ def generate_readme(stats):
         info_part = info_lines[i] if i < len(info_lines) else ""
         
         # Pad photo to consistent width (80 chars)
-        photo_part = photo_part.ljust(80)
+        photo_part = photo_part.ljust(5)
         
         combined_lines.append(f"{photo_part}    {info_part}")
     
@@ -222,15 +222,15 @@ def generate_readme(stats):
 ╚══════════════════════════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-<div align="center">
+# <div align="center">
 
-### 🎬 Project Demo
+# ### 🎬 Project Demo
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+# [![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
 
-*Click to watch the demo • Replace YOUR_VIDEO_ID with your actual YouTube video ID*
+# *Click to watch the demo • Replace YOUR_VIDEO_ID with your actual YouTube video ID*
 
-</div>
+# </div>
 
 
 ╔═════════════════════════════════════════════════╗  ╔═════════════════════════════════════════════════╗
