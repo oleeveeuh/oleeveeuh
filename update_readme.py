@@ -19,8 +19,7 @@ YOUR_BIRTH_DATE = date(2006, 1, 30)  # Adjust to your actual birthdate
 YOUR_SPECIALTY = "Healthcare ML, Time Series Forecasting"
 
 # Your ASCII art photo - paste yours here
-YOUR_ASCII_PHOTO = 
-r"""
+YOUR_ASCII_PHOTO = r"""
        _,╔▓██████████████▄;,,_             
       _██████████████████████▄,             
      :██████▌╙╙▀████████████████_           
