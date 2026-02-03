@@ -230,7 +230,7 @@ def generate_readme(stats):
 ║                                                 ║  ║                                                 ║
 ║  → github.com/oleeveeuh/WPI-UMASS-TOD           ║  ║  → github.com/oleeveeuh/CURVE-ICON-DBSO         ║
 ╚═════════════════════════════════════════════════╝  ╚═════════════════════════════════════════════════╝
-```
+
 ```
 
 <div align="center">
