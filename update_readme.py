@@ -215,17 +215,7 @@ def generate_readme(stats):
 │  Links: [GitHub Repo] • [Live Demo] • [Documentation]                     │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
-```
 
-<div align="center">
-
-### Project Demo
-
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
-
-*Click to watch the demo • Replace YOUR_VIDEO_ID with your actual YouTube video ID*
-
-</div>
 
 
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
