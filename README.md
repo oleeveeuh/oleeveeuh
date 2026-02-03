@@ -2,30 +2,30 @@
 
 
 
-_,╔▓██████████████▄;,,_                 olivia@github
-      _██████████████████████▄,                 ────────────────────────────────────────────────────────────────────────────────
-     :██████▌╙╙▀████████████████_               Name            : OLIVIA LIAU
-    _█████`       ``▓████████████_              Education       : USC CS + Applied Data Science '27
-    ╔████            ╙████████████▄_            Age             : 20 years
-   ┌████▌             ╙█████████████,_          Specialization  : Healthcare ML, Time Series Forecasting
-   ▓████▄,_       _,,╔▄██████████████ⁿ_        
-  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       OS              : Full-Stack ML Engineer
- ┌███████▐█▄     -╓'██████████████████         Kernel          : Python 3.11.x, PyTorch 2.x
-_▓█████╙`         ``ⁿ¬` `▀████████████H        Uptime          : 1,981 days coding
-`█████                   '▓████████████        Packages        : 9 repositories
-┌█████       ____ _       ╙▓███████████        Shell           : bash, zsh, python
-▐██████,_   ``'` `         ╚▓██████████        
- ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       Resolution      : 98% RMSE improvement ⚡
-  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       DE              : VSCode, Jupyter, PyCharm
-   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████       WM              : GitHub Actions
-    █████  █_         ,█████████████████       Theme           : Tokyo Night / Gruvbox
-     ████   ███▄▄▄▓   ██████████████████       
-     █████  ██████   ╫▓██▓██████████████       CPU             : Healthcare ML, Time Series Forecasting
-     █████   ████   ┌╠╠▓▓██████████████                          └─ Time Series Forecasting
-_   ╓█████   `██   ,╣╬╬▓████████████████                         └─ Deep Learning Research
-▒╓,:██████H       [█▓▓╣▓█████████████████╦                       └─ Full-Stack Development
-   j██████         '"╙█▓███████████████████                      └─ Healthcare Analytics
-         
+,,,_,,,___                         olivia@github
+       _,╔▓██████████████▄;,,_                 ────────────────────────────────────────────────────────────────────────────────
+      _██████████████████████▄,                 Name            : OLIVIA LIAU
+     :██████▌╙╙▀████████████████_               Education       : USC CS + Applied Data Science '27
+    _█████`       ``▓████████████_              Age             : 20 years
+    ╔████            ╙████████████▄_            Specialization  : Healthcare ML, Time Series Forecasting
+   ┌████▌             ╙█████████████,_          
+   ▓████▄,_       _,,╔▄██████████████ⁿ_        OS              : Full-Stack ML Engineer
+  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Kernel          : Python 3.11.x, PyTorch 2.x
+ ┌███████▐█▄     -╓'██████████████████         Uptime          : 1,981 days coding
+_▓█████╙`         ``ⁿ¬` `▀████████████H        Packages        : 9 repositories
+`█████                   '▓████████████        Shell           : bash, zsh, python
+┌█████       ____ _       ╙▓███████████        
+▐██████,_   ``'` `         ╚▓██████████        Resolution      : 98% RMSE improvement ⚡
+ ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       DE              : VSCode, Jupyter, PyCharm
+  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       WM              : GitHub Actions
+   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████       Theme           : Tokyo Night / Gruvbox
+    █████  █_         ,█████████████████       
+     ████   ███▄▄▄▓   ██████████████████       CPU             : Healthcare ML, Time Series Forecasting
+     █████  ██████   ╫▓██▓██████████████                         └─ Time Series Forecasting
+     █████   ████   ┌╠╠▓▓██████████████                          └─ Deep Learning Research
+_   ╓█████   `██   ,╣╬╬▓████████████████                         └─ Full-Stack Development
+▒╓,:██████H       [█▓▓╣▓█████████████████╦                       └─ Healthcare Analytics
+   j██████         '"╙█▓███████████████████    
          GPU             : CUDA-accelerated PyTorch
          Memory          : 0 commits
          Disk            : 276,212 lines of code
