@@ -9,13 +9,13 @@ import requests
 from datetime import datetime, date
 
 # Configuration
-GITHUB_USERNAME = "YOUR_USERNAME_HERE"  # Replace with your GitHub username
+GITHUB_USERNAME = "oleeveeuh"  # Replace with your GitHub username
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
 # Your personal info
 YOUR_NAME = "OLIVIA LIAU"
 YOUR_SCHOOL = "USC CS + Applied Data Science '27"
-YOUR_BIRTH_DATE = date(2003, 1, 1)  # Adjust to your actual birthdate
+YOUR_BIRTH_DATE = date(2006, 1, 30)  # Adjust to your actual birthdate
 YOUR_SPECIALTY = "Healthcare ML, Time Series Forecasting"
 
 # Your ASCII art photo - paste yours here
@@ -179,7 +179,7 @@ def generate_readme(stats):
     max_lines = max(len(photo_lines), len(info_lines))
     
     for i in range(max_lines):
-        photo_part = photo_lines[i] if i < len(photo_lines) else " " * 80
+        photo_part = photo_lines[i] if i < len(photo_lines) else " " * 5
         info_part = info_lines[i] if i < len(info_lines) else ""
         
         # Pad photo to consistent width (80 chars)
@@ -361,20 +361,12 @@ I enjoy working across the full ML pipeline—from messy data and feature engine
 
 ## 📚 Publications & Writing
 
-I share my knowledge and insights on:
-
 <div align="center">
 
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-username)
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/your-username)
 
 </div>
-
-**Topics I write about:**
-- 💼 Career insights and tips for breaking into tech
-- 🤖 AI, machine learning, and healthcare applications
-- 🔬 Research insights and technical deep-dives
-- 💡 Personal thoughts on emerging technologies
 
 ---
 
