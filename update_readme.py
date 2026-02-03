@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Generate dynamic ASCII-style README with PHOTO SUPPORT
-This version includes your actual GitHub profile picture!
+Generate dynamic ASCII-style README with your ASCII art photo
 """
 
 import os
@@ -18,15 +17,9 @@ YOUR_SCHOOL = "USC CS/Neuro '26"
 YOUR_BIRTH_DATE = date(2004, 1, 1)
 YOUR_SPECIALTY = "Healthcare ML, Time Series"
 
-# PHOTO OPTIONS - Choose one of these methods:
-# Option 1: Use GitHub profile picture (RECOMMENDED)
-USE_GITHUB_AVATAR = False  # Set to True to use your GitHub profile pic
-
-# Option 2: Use custom image URL
-CUSTOM_IMAGE_URL = ""  # Put your image URL here if not using GitHub avatar
-
-# Option 3: Use ASCII art
-ASCII_ART_PHOTO = """
+# Your ASCII art photo - paste yours here
+# Using raw string (r""") to avoid escape sequence issues
+YOUR_ASCII_PHOTO = r"""
      
                                 ,,,_,,,___                     `- `             
 ┌,_                        _,╔▓██████████████▄;,,_             .__`             
@@ -56,7 +49,7 @@ _,╓██  █████████▌       █████  █_         
 _        ╙████         █████              ╔▀╙╙█████████████████ ` ,             
 ▀▄        ██▌          ▓███             ,██_ `╠▓███████████████`, `             
           
-"""  # Replace with your ASCII art
+"""
 
 def calculate_age(birth_date):
     """Calculate current age from birthdate"""
@@ -134,7 +127,7 @@ def format_number(num):
     return f"{num:,}"
 
 def generate_readme(stats):
-    """Generate the ASCII README content with PHOTO"""
+    """Generate the ASCII README content with your ASCII art photo"""
     
     age = calculate_age(YOUR_BIRTH_DATE)
     top_langs = get_top_languages(stats['languages'])
@@ -144,36 +137,7 @@ def generate_readme(stats):
     start_date = date(2020, 9, 1)
     days_coding = (date.today() - start_date).days
     
-    # Determine which photo method to use
-    photo_section = ""
-    
-    if USE_GITHUB_AVATAR:
-        # Use actual GitHub profile picture
-        photo_section = f"""
-
-<div align="center">
-
-<img src="https://github.com/{GITHUB_USERNAME}.png" width="280" style="border-radius: 10px; border: 3px solid #58a6ff;" />
-
-</div>
-
-"""
-    elif CUSTOM_IMAGE_URL:
-        # Use custom image URL
-        photo_section = f"""
-
-<div align="center">
-
-<img src="{CUSTOM_IMAGE_URL}" width="280" style="border-radius: 10px; border: 3px solid #58a6ff;" />
-
-</div>
-
-"""
-    else:
-        # Use ASCII art - embedded in the Model Card
-        photo_section = ""  # ASCII is already in the card below
-    
-    # Generate the README
+    # Generate the README with ASCII art
     readme_content = f"""```ascii
                                             ██████╗ ██╗     ██╗██╗   ██╗██╗ █████╗ 
                                            ██╔═══██╗██║     ██║██║   ██║██║██╔══██╗
@@ -181,9 +145,8 @@ def generate_readme(stats):
                                            ██║   ██║██║     ██║╚██╗ ██╔╝██║██╔══██║
                                            ╚██████╔╝███████╗██║ ╚████╔╝ ██║██║  ██║
                                             ╚═════╝ ╚══════╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═╝
-```
-{photo_section}
-```ascii
+{YOUR_ASCII_PHOTO}
+
 ╔═══════════════════════════════════════════════════════════╗           {YOUR_NAME.split()[0].lower()}@github
 ║                                                           ║           ───────────────────────────────────────────────────────────────────────────
 ║                   MODEL CARD: v{datetime.now().strftime('%y')}                           ║           Model Type        : Full-Stack ML Engineer
@@ -332,7 +295,7 @@ def main():
     print(f"  Commits: {stats['commits']}")
     print(f"  LOC: {stats['loc']:,}")
     
-    print("\nGenerating README...")
+    print("\nGenerating README with your ASCII art photo...")
     readme = generate_readme(stats)
     
     # Write to README.md
@@ -340,13 +303,7 @@ def main():
         f.write(readme)
     
     print("✓ README.md updated successfully!")
-    
-    if USE_GITHUB_AVATAR:
-        print(f"\n📸 Using GitHub profile picture from: https://github.com/{GITHUB_USERNAME}.png")
-    elif CUSTOM_IMAGE_URL:
-        print(f"\n📸 Using custom image from: {CUSTOM_IMAGE_URL}")
-    else:
-        print("\n🎨 Using ASCII art for photo")
+    print("📸 Your ASCII art photo has been included!")
 
 if __name__ == '__main__':
     main()
