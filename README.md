@@ -6,13 +6,13 @@
        _,╔▓██████████████▄;,,_                                                      ────────────────────────────────────────────────────────────────────────────────
       _██████████████████████▄,                                                     Name            : OLIVIA LIAU
      :██████▌╙╙▀████████████████_                                                   Education       : USC CS + Applied Data Science '27
-    _█████`       ``▓████████████_                                                  Age             : 23 years
+    _█████`       ``▓████████████_                                                  Age             : 20 years
     ╔████            ╙████████████▄_                                                Specialization  : Healthcare ML, Time Series Forecasting
    ┌████▌             ╙█████████████,_                                              
    ▓████▄,_       _,,╔▄██████████████ⁿ_                                             OS              : Full-Stack ML Engineer
   ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `                                            Kernel          : Python 3.11.x, PyTorch 2.x
  ┌███████▐█▄     -╓'██████████████████                                              Uptime          : 1,981 days coding
-_▓█████╙`         ``ⁿ¬` `▀████████████H                                             Packages        : 0 repositories
+_▓█████╙`         ``ⁿ¬` `▀████████████H                                             Packages        : 9 repositories
 `█████                   '▓████████████                                             Shell           : bash, zsh, python
 ┌█████       ____ _       ╙▓███████████                                             
 ▐██████,_   ``'` `         ╚▓██████████                                             Resolution      : 98% RMSE improvement ⚡
@@ -28,10 +28,10 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
    j██████         '"╙█▓███████████████████                                         
                                                                                     GPU             : CUDA-accelerated PyTorch
                                                                                     Memory          : 0 commits
-                                                                                    Disk            : 0 lines of code
+                                                                                    Disk            : 276,223 lines of code
                                                                                     
                                                                                     Network         : ★ 0 GitHub stars
-                                                                                    Languages       : Python, PyTorch, JavaScript
+                                                                                    Languages       : HTML, Jupyter Notebook, Python, TypeScript
                                                                                     Connections     : 0 followers, 0 following
                                                                                     
                                                                                     ████████████████████████████████████████████████████████████████████████████████
@@ -203,20 +203,12 @@ I enjoy working across the full ML pipeline—from messy data and feature engine
 
 ## 📚 Publications & Writing
 
-I share my knowledge and insights on:
-
 <div align="center">
 
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-username)
 [![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/your-username)
 
 </div>
-
-**Topics I write about:**
-- 💼 Career insights and tips for breaking into tech
-- 🤖 AI, machine learning, and healthcare applications
-- 🔬 Research insights and technical deep-dives
-- 💡 Personal thoughts on emerging technologies
 
 ---
 
@@ -227,7 +219,7 @@ I share my knowledge and insights on:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@usc.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YOUR_USERNAME_HERE)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oleeveeuh)
 
 </div>
 
@@ -237,7 +229,7 @@ I share my knowledge and insights on:
 
 <div align="center">
 
-### 📄 **[Download My Resume](https://github.com/YOUR_USERNAME_HERE/resume/raw/main/resume.pdf)**
+### 📄 **[Download My Resume](https://github.com/oleeveeuh/resume/raw/main/resume.pdf)**
 
 *Currently seeking full-time data science and ML engineering opportunities*
 
@@ -249,7 +241,7 @@ I share my knowledge and insights on:
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=YOUR_USERNAME_HERE&color=blueviolet&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username=oleeveeuh&color=blueviolet&style=for-the-badge)
 
 <sub>Last updated: February 03, 2026 • Auto-updated daily via GitHub Actions</sub>
 
