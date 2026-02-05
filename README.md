@@ -2,7 +2,7 @@
 
 
 ,        olivia@github
-                                        ,    ────────────────────────────────────────────────────────────────────────────────
+                                        ,    ────────────────────────────────────────
             ,,,_,,,___                         Name            : OLIVIA LIAU
        _,╔▓██████████████▄;,,_                 Education       : USC CS + Applied Data Science '27
       _██████████████████████▄,                 Age             : 20 years
@@ -27,7 +27,7 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
 _   ╓█████   `██   ,╣╬╬▓████████████████       
 ▒╓,:██████H       [█▓▓╣▓█████████████████╦     GPU             : CUDA-accelerated PyTorch
    j██████         '"╙█▓███████████████████    Memory          : 0 commits
-         Disk            : 276,443 lines of code
+         Disk            : 276,439 lines of code
          ████████████████████████████████████████████████████████████████████████████████
 ```
 
@@ -53,34 +53,34 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 │                                                                            │
 │  Tech Stack: [Python, PyTorch, React, etc.]                                │
 │                                                                            │
-│  Links: [GitHub Repo] • [Live Demo] • [Documentation]                     │
+│  Links: [GitHub Repo] • [Live Demo] • [Documentation]                      │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 
 
 
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: WPI-UMASS TOD Prediction                                               │
+│  MODEL CARD: WPI-UMASS TOD Prediction                                                │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
-│  Model Type         : Time-of-Death Regression (AutoEncoder-CNN)                    │
-│  Domain             : Bioinformatics, Gene Expression Analysis                      │
-│  Task               : Predict time-of-death from 20k+ gene expression features      │
+│  Model Type         : Time-of-Death Regression (AutoEncoder-CNN)                     │
+│  Domain             : Bioinformatics, Gene Expression Analysis                       │
+│  Task               : Predict time-of-death from 20k+ gene expression features       │
 │                                                                                      │
 │  Performance Metrics:                                                                │
-│    • MAE: 1-hour prediction window                                                  │
-│    • 68% improvement over PCA+LinearRegression baseline                             │
+│    • MAE: 1-hour prediction window                                                   │
+│    • 68% improvement over PCA+LinearRegression baseline                              │
 │    • Benchmarked 700+ model configurations                                           │
 │                                                                                      │
-│  Training Data      : 146 samples × 20,000+ genes                                   │
-│  Architecture       : AutoEncoder (dimensionality reduction) --> CNN (regression)     │
-│  Validation         : Cross-validation with PCA/UMAP/NMF comparison                 │
+│  Training Data      : 146 samples × 20,000+ genes                                    │
+│  Architecture       : AutoEncoder (dimensionality reduction) --> CNN (regression)    │
+│  Validation         : Cross-validation with PCA/UMAP/NMF comparison                  │
 │                                                                                      │
-│  Intended Use       : Research, drug timing optimization                            │
-│  Limitations        : Limited sample size, requires gene expression data            │
+│  Intended Use       : Research, drug timing optimization                             │
+│  Limitations        : Limited sample size, requires gene expression data             │
 │                                                                                      │
-│  Publication        : BIOINFORMATICS 2026                                           │
-│  Repository         : github.com/oleeveeuh/WPI-UMASS-TOD                            │
+│  Publication        : BIOINFORMATICS 2026                                            │
+│  Repository         : github.com/oleeveeuh/WPI-UMASS-TOD                             │ 
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -95,27 +95,27 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: ICON-DBSO Prediction                                                   │
+│  MODEL CARD: ICON-DBSO Prediction                                                    │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
-│  Model Type         : DBS Outcome Binary Classifier                                 │
-│  Domain             : Healthcare ML, Parkinson's Disease Treatment                  │
-│  Task               : Predict deep-brain stimulation treatment outcomes             │
+│  Model Type         : DBS Outcome Binary Classifier                                  │
+│  Domain             : Healthcare ML, Parkinson's Disease Treatment                   │ 
+│  Task               : Predict deep-brain stimulation treatment outcomes              │
 │                                                                                      │
 │  Performance Metrics:                                                                │
-│    • Accuracy: 71% with stratified GroupKFold CV                                    │
-│    • Feature importance analysis via SHAP TreeExplainer                             │
-│    • Identified top-10 neurological biomarkers                                      │
+│    • Accuracy: 71% with stratified GroupKFold CV                                     │
+│    • Feature importance analysis via SHAP TreeExplainer                              │
+│    • Identified top-10 neurological biomarkers                                       │
 │                                                                                      │
-│  Training Data      : Multimodal EEG recordings + clinical assessments              │
-│  Features           : 108 engineered features (temporal, spectral, clinical)        │
-│  Architecture       : Gradient boosting with SHAP explainability layer              │
+│  Training Data      : Multimodal EEG recordings + clinical assessments               │
+│  Features           : 108 engineered features (temporal, spectral, clinical)         │
+│  Architecture       : Gradient boosting with SHAP explainability layer               │
 │                                                                                      │
-│  Intended Use       : Clinical decision support, treatment planning                 │
-│  Limitations        : Requires EEG data, physician oversight necessary              │
+│  Intended Use       : Clinical decision support, treatment planning                  │
+│  Limitations        : Requires EEG data, physician oversight necessary               │
 │                                                                                      │
-│  Ethics             : Explainability prioritized for physician trust                │
-│  Repository         : github.com/oleeveeuh/CURVE-ICON-DBSO                          │
+│  Ethics             : Explainability prioritized for physician trust                 │
+│  Repository         : github.com/oleeveeuh/CURVE-ICON-DBSO                           │
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -130,26 +130,26 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: MultiSDAR PD Classification                                            │
+│  MODEL CARD: MultiSDAR PD Classification                                             │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
-│  Model Type         : Multimodal Parkinson's Disease Classifier                     │
-│  Domain             : Computer Vision + Time Series, Healthcare Diagnostics         │
-│  Task               : Detect Parkinson's Disease from sensor + imaging data         │
+│  Model Type         : Multimodal Parkinson's Disease Classifier                      │
+│  Domain             : Computer Vision + Time Series, Healthcare Diagnostics          │
+│  Task               : Detect Parkinson's Disease from sensor + imaging data          │
 │                                                                                      │
 │  Performance Metrics:                                                                │
-│    • Time-series: 90% accuracy on accelerometer data                                │
-│    • Imaging: 72% accuracy on MRI scans (ResNet18 transfer learning)               │
-│    • 18% AUC improvement via PCA + HOG feature extraction                           │
+│    • Time-series: 90% accuracy on accelerometer data                                 │
+│    • Imaging: 72% accuracy on MRI scans (ResNet18 transfer learning)                 │
+│    • 18% AUC improvement via PCA + HOG feature extraction                            │
 │                                                                                      │
-│  Training Data      : Limited samples, augmented via SMOTE oversampling             │
-│  Architecture       : Dual-pathway (ResNet18 for imaging + LSTM for time series)   │
-│  Preprocessing      : HOG descriptors, PCA dimensionality reduction                 │
+│  Training Data      : Limited samples, augmented via SMOTE oversampling              │
+│  Architecture       : Dual-pathway (ResNet18 for imaging + LSTM for time series)     │
+│  Preprocessing      : HOG descriptors, PCA dimensionality reduction                  │
 │                                                                                      │
-│  Intended Use       : Early PD screening, research applications                     │
-│  Limitations        : Class imbalance addressed via SMOTE, small sample size        │
+│  Intended Use       : Early PD screening, research applications                      │
+│  Limitations        : Class imbalance addressed via SMOTE, small sample size         │
 │                                                                                      │
-│  Repository         : github.com/oleeveeuh/MoE-MultiSDAR-PD                         │
+│  Repository         : github.com/oleeveeuh/MoE-MultiSDAR-PD                          │ 
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -164,27 +164,27 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: Hope Services Analytics                                                │
+│  MODEL CARD: Hope Services Analytics                                                 │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
-│  Model Type         : Supervised Anomaly Detection (Random Forest)                  │
-│  Domain             : Pediatric Healthcare, Risk Stratification                     │
-│  Task               : Flag high-risk treatment cases for manual review              │
+│  Model Type         : Supervised Anomaly Detection (Random Forest)                   │
+│  Domain             : Pediatric Healthcare, Risk Stratification                      │
+│  Task               : Flag high-risk treatment cases for manual review               │
 │                                                                                      │
 │  Performance Metrics:                                                                │
-│    • Accuracy: 71% on high-risk case identification                                 │
-│    • Precision: 0.70 (minimize false positives)                                     │
-│    • 60% reduction in manual review time                                            │
+│    • Accuracy: 71% on high-risk case identification                                  │
+│    • Precision: 0.70 (minimize false positives)                                      │
+│    • 60% reduction in manual review time                                             │
 │                                                                                      │
-│  Training Data      : 248 patients, 896 clinical assessments (2+ years)            │
-│  Features           : Behavioral health metrics, treatment patterns                 │
-│  Architecture       : Random Forest with automated risk scoring pipeline            │
+│  Training Data      : 248 patients, 896 clinical assessments (2+ years)              │
+│  Features           : Behavioral health metrics, treatment patterns                  │
+│  Architecture       : Random Forest with automated risk scoring pipeline             │
 │                                                                                      │
-│  Intended Use       : Clinical workflow optimization, safety net                    │
-│  Limitations        : Augments human review, does not replace clinical judgment     │
+│  Intended Use       : Clinical workflow optimization, safety net                     │
+│  Limitations        : Augments human review, does not replace clinical judgment      │ 
 │                                                                                      │
-│  Impact             : 42 high-risk cases flagged (7.5% of total assessments)       │
-│  Status             : Private Repository                                            │
+│  Impact             : 42 high-risk cases flagged (7.5% of total assessments)         │
+│  Status             : Private Repository                                             │
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -198,27 +198,27 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  SYSTEM CARD: RetailPRED                                                            │
+│  SYSTEM CARD: RetailPRED                                                             │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
-│  System Type        : Production MLOps Pipeline                                     │
-│  Domain             : Retail Analytics, Demand Forecasting                          │
-│  Task               : End-to-end weekly demand prediction with auto-retraining      │
+│  System Type        : Production MLOps Pipeline                                      │
+│  Domain             : Retail Analytics, Demand Forecasting                           │
+│  Task               : End-to-end weekly demand prediction with auto-retraining       │
 │                                                                                      │
 │  Performance Metrics:                                                                │
-│    • Historical accuracy: 90.9% across 11 product categories                        │
-│    • 10x performance improvement via ablation testing                               │
-│    • 2,214 validated predictions generated                                          │
+│    • Historical accuracy: 90.9% across 11 product categories                         │
+│    • 10x performance improvement via ablation testing                                │
+│    • 2,214 validated predictions generated                                           │
 │                                                                                      │
-│  Training Data      : Time-series retail sales (73 engineered lag/rolling features) │
-│  Architecture       : Ensemble (Random Forest + LightGBM)                           │
-│  Infrastructure     : GCP, Airflow DAGs, Docker containers                          │
-│  Interface          : Dual-mode (React dashboard + Tableau BI)                      │
+│  Training Data      : Time-series retail sales (73 engineered lag/rolling features)  │
+│  Architecture       : Ensemble (Random Forest + LightGBM)                            │
+│  Infrastructure     : GCP, Airflow DAGs, Docker containers                           │
+│  Interface          : Dual-mode (React dashboard + Tableau BI)                       │
 │                                                                                      │
-│  Deployment         : Automated weekly retraining pipeline                          │
-│  Monitoring         : Real-time forecast validation, drift detection                │
+│  Deployment         : Automated weekly retraining pipeline                           │
+│  Monitoring         : Real-time forecast validation, drift detection                 │
 │                                                                                      │
-│  Live Demo          : retail-pred.vercel.app                                        │
+│  Live Demo          : retail-pred.vercel.app                                         │
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -234,26 +234,26 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  SYSTEM CARD: ReviewInsight AI                                                      │
+│  SYSTEM CARD: ReviewInsight AI                                                       │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
-│  System Type        : RAG-powered NLP Analytics Pipeline                            │
-│  Domain             : Workforce Analytics, Employee Retention                       │
-│  Task               : Extract actionable retention insights from employee reviews   │
+│  System Type        : RAG-powered NLP Analytics Pipeline                             │
+│  Domain             : Workforce Analytics, Employee Retention                        │
+│  Task               : Extract actionable retention insights from employee reviews    │
 │                                                                                      │
 │  Performance Metrics:                                                                │
-│    • F1-score: 81% on binary retention risk classification                          │
-│    • Retrieval precision: 90%+ via cosine similarity search                         │
-│    • Key finding: Overtime identified as top retention risk factor                  │
+│    • F1-score: 81% on binary retention risk classification                           │
+│    • Retrieval precision: 90%+ via cosine similarity search                          │
+│    • Key finding: Overtime identified as top retention risk factor                   │
 │                                                                                      │
-│  Training Data      : 350+ employee reviews (Glassdoor, Reddit, internal surveys)  │
-│  Architecture       : GPT-4 + OpenAI Embeddings + K-means clustering                │
-│  Pipeline           : RAG retrieval --> Thematic coding --> A/B validation              │
+│  Training Data      : 350+ employee reviews (Glassdoor, Reddit, internal surveys)    │
+│  Architecture       : GPT-4 + OpenAI Embeddings + K-means clustering                 │
+│  Pipeline           : RAG retrieval --> Thematic coding --> A/B validation           │
 │                                                                                      │
-│  Business Impact    : Influenced warehouse culture & overtime policy updates        │
-│  Validation         : A/B testing on classification accuracy                        │
+│  Business Impact    : Influenced warehouse culture & overtime policy updates         │
+│  Validation         : A/B testing on classification accuracy                         │
 │                                                                                      │
-│  Client             : Amazon Externship Project                                     │
+│  Client             : Amazon Externship Project                                      │
 └──────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -349,8 +349,6 @@ I enjoy working across the full ML pipeline—from messy data and feature engine
 
 ## 📚 Publications & Writing
 
-I share my knowledge and insights on:
-
 <div align="center">
 
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-username)
@@ -358,11 +356,6 @@ I share my knowledge and insights on:
 
 </div>
 
-**Topics I write about:**
-- 💼 Career insights and tips for breaking into tech
-- 🤖 AI, machine learning, and healthcare applications
-- 🔬 Research insights and technical deep-dives
-- 💡 Personal thoughts on emerging technologies
 
 ---
 
