@@ -141,7 +141,7 @@ def generate_readme(stats):
     username_lower = YOUR_NAME.split()[0].lower()
     info_lines = [
         f"{username_lower}@github",
-        "─" * 50,
+        "─" * 40,
         f"Name            : {YOUR_NAME}",
         f"Education       : {YOUR_SCHOOL}",
         f"Age             : {age} years",
