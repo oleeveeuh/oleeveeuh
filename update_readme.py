@@ -16,7 +16,7 @@ GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 YOUR_NAME = "OLIVIA LIAU"
 YOUR_SCHOOL = "USC CS + Applied DS '27"
 YOUR_BIRTH_DATE = date(2006, 1, 30)  # Adjust to your actual birthdate
-YOUR_SPECIALTY = "End-to-end ML Systems"
+YOUR_SPECIALTY = "End-to-end Machine-Learning Systems"
 
 # Your ASCII art photo - paste yours here
 YOUR_ASCII_PHOTO = r"""
@@ -144,27 +144,27 @@ def generate_readme(stats):
         "@olivialiau_________________________________",
         f"Name............................ {YOUR_NAME}",
         f"Education........... {YOUR_SCHOOL}",
-        f"Age.............................. {age} years",
+        f"Age................................ {age} years",
         "",
         f"OS............................. MacOS 26.0.1",
-        f"Kernel.............. Python 3.11.x, PyTorch 2.x",
+        f"Kernel............ Python 3.11.x, PyTorch 2.x",
         f"Shell...................... bash, zsh, python",
         "",
         "contact______________________________________",
-        f"email......................... oliau@usc.edu",
-        f"linkedin........................: olivialiau",
+        f"email.......................... oliau@usc.edu",
+        f"linkedin.........................: olivialiau",
         "",
         "olivia@liau__________________________________",
-        f"CPU...................: {YOUR_SPECIALTY}",
-        f"                  └─ Time Series Forecasting",
-        f"                  └─ Deep Learning Research",
-        f"                  └─ Full-Stack Development",
-        f"                  └─ Healthcare Analytics",
+        f"CPU....: {YOUR_SPECIALTY}",
+        f"                   └─ Time Series Forecasting",
+        f"                    └─ Deep Learning Research",
+        f"                    └─ Full-Stack Development",
+        f"                     └─ Healthcare Analytics",
         "",
         "github stats_________________________________",
-        f"Memory.......................... {format_number(stats['commits'])} commits",
-        f"Uptime....................... {days_coding:,} days coding",
-        f"Packages........................ {stats['repos']} repositories",
+        f"Memory............................. {format_number(stats['commits'])} commits",
+        f"Uptime..................... {days_coding:,} days coding",
+        f"Packages...................... {stats['repos']} repositories",
         f"Disk................... {format_number(stats['loc'])} lines of code",
     ]
     
