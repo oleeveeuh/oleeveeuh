@@ -449,7 +449,7 @@ def generate_readme(stats):
 
 ---
 
-## 👋 About Me
+## About Me
 
 I'm a Computer Science student at USC pursuing a Master's in Applied Data Science, focused on building and deploying machine learning systems for real-world problems. My interests include healthcare ML, time-series forecasting, NLP, and model interpretability, with an emphasis on taking models from research to production.
 
@@ -504,40 +504,29 @@ I enjoy working across the full ML pipeline—from messy data and feature engine
 
 **Specializations:** Time Series Forecasting • NLP • Computer Vision • Feature Engineering • Statistical Modeling • Model Interpretability (SHAP)
 
----
-
-## 📚 Publications & Writing
-
-<div align="center">
-
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-username)
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/your-username)
-
-</div>
 
 
 ---
 
-## 📫 Connect With Me!
+## Connect With Me!
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@usc.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/{GITHUB_USERNAME})
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/olivialiau)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:oliau@usc.edu)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/{oleeveeuh})
 
 </div>
 
 ---
 
-## 💼 Employer?
+## Employer?
 
 <div align="center">
 
-### 📄 **[Download My Resume](https://github.com/{GITHUB_USERNAME}/resume/raw/main/resume.pdf)**
+### 📄 **[Download My Resume](https://github.com/{oleeveeuh}/resume.pdf)**
 
-*Currently seeking full-time data science and ML engineering opportunities*
+*Currently seeking internships in data science, engineering, and ML.*
 
 **Important:** I'm actively applying for roles in SF Bay Area focusing on healthcare ML and time series forecasting.
 
