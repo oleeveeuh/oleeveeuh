@@ -141,29 +141,30 @@ def generate_readme(stats):
     # Info lines (right side)
     username_lower = YOUR_NAME.split()[0].lower()
     info_lines = [
+        "@olivialiau_________________________________"
         f"Name            : {YOUR_NAME}",
         f"Education       : {YOUR_SCHOOL}",
         f"Age             : {age} years",
-        f"Specialization  : {YOUR_SPECIALTY}",
         "",
-        f"OS              : Full-Stack ML Engineer",
+        f"OS              : MacOS 26.0.1",
         f"Kernel          : Python 3.11.x, PyTorch 2.x",
-        f"Uptime          : {days_coding:,} days coding",
-        f"Packages        : {stats['repos']} repositories",
         f"Shell           : bash, zsh, python",
         "",
-        f"Resolution      : 98% RMSE improvement ⚡",
-        f"DE              : VSCode, Colab, PyCharm",
-        f"WM              : GitHub Actions",
+        "contact______________________________________"
+        f"email              : oliau@usc.edu",
+        f"linkedin              : olivialiau",
         "",
+        "olivia@liau_________________________________"
         f"CPU             : {YOUR_SPECIALTY}",
         f"                  └─ Time Series Forecasting",
         f"                  └─ Deep Learning Research",
         f"                  └─ Full-Stack Development",
         f"                  └─ Healthcare Analytics",
         "",
-        f"GPU             : CUDA-accelerated PyTorch",
+        "github stats_________________________________"
         f"Memory          : {format_number(stats['commits'])} commits",
+        f"Uptime          : {days_coding:,} days coding",
+        f"Packages        : {stats['repos']} repositories",
         f"Disk            : {format_number(stats['loc'])} lines of code",
     ]
     
