@@ -191,7 +191,7 @@ def generate_readme(stats):
         info_part = info_lines[i] if i < len(info_lines) else ""
         
         # Pad photo to consistent width (80 chars)
-        photo_part = photo_part.ljust(5)
+        photo_part = photo_part.ljust(30)
         
         combined_lines.append(f"{photo_part}    {info_part}")
     
