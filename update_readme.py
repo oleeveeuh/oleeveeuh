@@ -14,7 +14,7 @@ GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 
 # Your personal info
 YOUR_NAME = "OLIVIA LIAU"
-YOUR_SCHOOL = "USC CS + Applied Data Science '27"
+YOUR_SCHOOL = "USC CS + Applied DS '27"
 YOUR_BIRTH_DATE = date(2006, 1, 30)  # Adjust to your actual birthdate
 YOUR_SPECIALTY = "End-to-end ML Systems"
 
