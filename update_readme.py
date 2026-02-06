@@ -154,9 +154,8 @@ def generate_readme(stats):
         f"Shell           : bash, zsh, python",
         "",
         f"Resolution      : 98% RMSE improvement ⚡",
-        f"DE              : VSCode, Jupyter, PyCharm",
+        f"DE              : VSCode, Colab, PyCharm",
         f"WM              : GitHub Actions",
-        f"Theme           : Tokyo Night / Gruvbox",
         "",
         f"CPU             : {YOUR_SPECIALTY}",
         f"                  └─ Time Series Forecasting",
@@ -196,28 +195,6 @@ def generate_readme(stats):
 ##  Featured Projects
 
 ```ascii
-┌────────────────────────────────────────────────────────────────────────────┐
-│                         MOST RECENT PROJECT                                │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│  [TAG] [PROJECT NAME HERE]                                                 │
-│  ──────────────────────────────────────────────────────────────────────    │
-│                                                                            │
-│  Description: [Add your project description here]                          │
-│                                                                            │
-│  Key Achievements:                                                         │
-│     • [Achievement 1 - quantify impact if possible]                        │
-│     • [Achievement 2 - mention specific metrics]                           │
-│     • [Achievement 3 - highlight technical innovation]                     │
-│                                                                            │
-│  Tech Stack: [Python, PyTorch, React, etc.]                                │
-│                                                                            │
-│  Links: [GitHub Repo] • [Live Demo] • [Documentation]                      │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-
-
-
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
 │  MODEL CARD: WPI-UMASS TOD Prediction                                                │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
