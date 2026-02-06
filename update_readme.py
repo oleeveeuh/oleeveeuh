@@ -493,7 +493,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 <div align="center">
 
-### 📄 **[Download My Resume](https://github.com/{oleeveeuh}/resume.pdf)**
+### 📄 **[Download My Resume](https://github.com/{GITHUB_USERNAME}/resume.pdf)**
 
 *Currently seeking internships in data science, engineering, and ML.*
 
