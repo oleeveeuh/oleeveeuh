@@ -17,12 +17,12 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
 ┌█████       ____ _       ╙▓███████████        INTERESTS____________________________________
 ▐██████,_   ``'` `         ╚▓██████████        CPU.....: End-to-end Machine-Learning Systems
  ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_                          └─ Time Series Forecasting
-  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████                           └─ Deep Learning Research
-   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████                           └─ Full-Stack Development
-    █████  █_         ,█████████████████                            └─ Healthcare Analytics
+  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████                          └─ Deep Learning Research
+   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████                          └─ Full-Stack Development
+    █████  █_         ,█████████████████                          └─ Healthcare Analytics
      ████   ███▄▄▄▓   ██████████████████       
      █████  ██████   ╫▓██▓██████████████       GITHUB STATS_________________________________
-     █████   ████   ┌╠╠▓▓██████████████        Memory............................. 177 commits
+     █████   ████   ┌╠╠▓▓██████████████        Memory........................... 177 commits
 _   ╓█████   `██   ,╣╬╬▓████████████████       Uptime..................... 1,984 days coding
 ▒╓,:██████H       [█▓▓╣▓█████████████████╦     Packages...................... 9 repositories
    j██████         '"╙█▓███████████████████    Disk................... 276,377 lines of code
@@ -36,11 +36,11 @@ ___________________________________________
 
 hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master’s in applied data science. right now, I’m applying for data science and ML roles. please feel free to check out the model cards and repositories below!
 
-*some of my favorite projects:*
+**some of my favorite projects:**
 - predicting drug timing from gene expression data with an AutoEncoder–CNN, to be published in BIOINFORMATICS 2026!
 - RetailPRED, a production-grade demand forecasting system on GCP with Airflow and ensemble models.
 
-*what i’m working on now:* an Amazon Warehouse Operations Analytics externship, where I'm building a NLP and RAG pipeline for workforce analytics!
+**what i’m working on now:** an Amazon Warehouse Operations Analytics externship, where I'm building a NLP and RAG pipeline for workforce analytics!
 
 ---
 
