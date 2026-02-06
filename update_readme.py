@@ -16,19 +16,19 @@ GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 YOUR_NAME = "OLIVIA LIAU"
 YOUR_SCHOOL = "USC CS + Applied Data Science '27"
 YOUR_BIRTH_DATE = date(2006, 1, 30)  # Adjust to your actual birthdate
-YOUR_SPECIALTY = "Healthcare ML, Time Series Forecasting"
+YOUR_SPECIALTY = "End-to-end ML Systems"
 
 # Your ASCII art photo - paste yours here
 YOUR_ASCII_PHOTO = r"""
-                                        ,
-                                        ,
+                                          ,
+                                          ,
             ,,,_,,,___                     
        _,╔▓██████████████▄;,,_             
-      _██████████████████████▄,             
-     :██████▌╙╙▀████████████████_           
-    _█████`       ``▓████████████_          
-    ╔████            ╙████████████▄_        
-   ┌████▌             ╙█████████████,_      
+      _██████████████████████▄,            
+     :██████▌╙╙▀████████████████_          
+    _█████`       ``▓████████████_         
+    ╔████            ╙████████████▄_       
+   ┌████▌             ╙█████████████,_     
    ▓████▄,_       _,,╔▄██████████████ⁿ_    
   ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `   
  ┌███████▐█▄     -╓'██████████████████     
@@ -141,7 +141,7 @@ def generate_readme(stats):
     username_lower = YOUR_NAME.split()[0].lower()
     info_lines = [
         f"{username_lower}@github",
-        "─" * 40,
+        "─" * 50,
         f"Name            : {YOUR_NAME}",
         f"Education       : {YOUR_SCHOOL}",
         f"Age             : {age} years",
