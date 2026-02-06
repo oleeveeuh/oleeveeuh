@@ -22,10 +22,10 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
     █████  █_         ,█████████████████                          └─ Healthcare Analytics
      ████   ███▄▄▄▓   ██████████████████       
      █████  ██████   ╫▓██▓██████████████       GITHUB STATS_________________________________
-     █████   ████   ┌╠╠▓▓██████████████        Memory........................... 177 commits
+     █████   ████   ┌╠╠▓▓██████████████        Memory........................... 178 commits
 _   ╓█████   `██   ,╣╬╬▓████████████████       Uptime..................... 1,984 days coding
 ▒╓,:██████H       [█▓▓╣▓█████████████████╦     Packages...................... 9 repositories
-   j██████         '"╙█▓███████████████████    Disk................... 276,377 lines of code
+   j██████         '"╙█▓███████████████████    Disk................... 276,376 lines of code
 ___________________________________________    
 ```
 
@@ -329,16 +329,13 @@ hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master�
 
 ---
 
-## Employer?
+## employer?
 
 <div align="center">
 
-### 📄 **[Download My Resume](https://github.com/oleeveeuh/resume.pdf)**
+### 📄 **[download my resume](https://github.com/oleeveeuh/OLIVIALIAU_resume.pdf)**
 
-*Currently seeking internships in data science, engineering, and ML.*
-
-**Important:** I'm actively applying for roles in SF Bay Area focusing on healthcare ML and time series forecasting.
-
+*currently seeking internships in data science, engineering, and ML in SF Bay Area*
 </div>
 
 ---
