@@ -502,16 +502,13 @@ hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master�
 
 ---
 
-## Employer?
+## employer?
 
 <div align="center">
 
-### 📄 **[Download My Resume](https://github.com/{GITHUB_USERNAME}/resume.pdf)**
+### 📄 **[download my resume](https://github.com/{GITHUB_USERNAME}/OLIVIALIAU_resume.pdf)**
 
-*Currently seeking internships in data science, engineering, and ML.*
-
-**Important:** I'm actively applying for roles in SF Bay Area focusing on healthcare ML and time series forecasting.
-
+*currently seeking internships in data science, engineering, and ML in SF Bay Area*
 </div>
 
 ---
