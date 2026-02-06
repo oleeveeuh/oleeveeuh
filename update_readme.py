@@ -102,18 +102,25 @@ def get_github_stats(username, token):
                                 stats['loc'] += bytes_count // 50
         
         # Get commit count
-        events_url = f'https://api.github.com/users/{username}/events/public?per_page=100'
-        events_response = requests.get(events_url, headers=headers)
-        if events_response.status_code == 200:
-            events = events_response.json()
-            push_events = [e for e in events if e.get('type') == 'PushEvent']
-            stats['commits'] = sum(len(e.get('payload', {}).get('commits', [])) for e in push_events)
-            stats['commits'] = stats['commits'] * 50
-        
-    except Exception as e:
-        print(f"Error fetching GitHub stats: {e}")
-    
-    return stats
+        search_url = f"https://api.github.com/search/commits?q=author:{username}"
+                # REQUIRED preview header for commit search
+            headers = headers.copy()
+            headers["Accept"] = "application/vnd.github.cloak-preview+json"
+            
+            response = requests.get(search_url, headers=headers)
+                
+            if response.status_code == 200:
+            data = response.json()
+            stats['commits'] = data.get("total_count", 0)
+            else:
+            print(f"Error fetching commits: {response.status_code} {response.text}")
+            stats['commits'] =  0
+            
+                    
+            except Exception as e:
+             print(f"Error fetching GitHub stats: {e}")
+                
+            return stats
 
 def get_top_languages(languages_dict, top_n=4):
     """Get top N languages by bytes of code"""
