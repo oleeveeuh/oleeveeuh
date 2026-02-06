@@ -20,7 +20,7 @@ YOUR_SPECIALTY = "End-to-end ML Systems"
 
 # Your ASCII art photo - paste yours here
 YOUR_ASCII_PHOTO = r"""
-              ,        
+___________________________________________
             ,,,_,,,___                     
        _,╔▓██████████████▄;,,_             
       _██████████████████████▄,            
@@ -45,7 +45,8 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
 _   ╓█████   `██   ,╣╬╬▓████████████████   
 ▒╓,:██████H       [█▓▓╣▓█████████████████╦ 
    j██████         '"╙█▓███████████████████
-  
+___________________________________________
+
 """
 
 def calculate_age(birth_date):
@@ -140,7 +141,6 @@ def generate_readme(stats):
     # Info lines (right side)
     username_lower = YOUR_NAME.split()[0].lower()
     info_lines = [
-        "─" * 40,
         f"Name            : {YOUR_NAME}",
         f"Education       : {YOUR_SCHOOL}",
         f"Age             : {age} years",
@@ -165,7 +165,6 @@ def generate_readme(stats):
         f"GPU             : CUDA-accelerated PyTorch",
         f"Memory          : {format_number(stats['commits'])} commits",
         f"Disk            : {format_number(stats['loc'])} lines of code",
-        "─" * 40,
     ]
     
     # Combine photo and info side by side
