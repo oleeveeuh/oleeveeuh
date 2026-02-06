@@ -15,52 +15,92 @@
  ┌███████▐█▄     -╓'██████████████████         Shell           : bash, zsh, python
 _▓█████╙`         ``ⁿ¬` `▀████████████H        
 `█████                   '▓████████████        Resolution      : 98% RMSE improvement ⚡
-┌█████       ____ _       ╙▓███████████        DE              : VSCode, Jupyter, PyCharm
+┌█████       ____ _       ╙▓███████████        DE              : VSCode, Colab, PyCharm
 ▐██████,_   ``'` `         ╚▓██████████        WM              : GitHub Actions
- ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       Theme           : Tokyo Night / Gruvbox
-  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       
-   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████       CPU             : Healthcare ML, Time Series Forecasting
-    █████  █_         ,█████████████████                         └─ Time Series Forecasting
-     ████   ███▄▄▄▓   ██████████████████                         └─ Deep Learning Research
-     █████  ██████   ╫▓██▓██████████████                         └─ Full-Stack Development
-     █████   ████   ┌╠╠▓▓██████████████                          └─ Healthcare Analytics
-_   ╓█████   `██   ,╣╬╬▓████████████████       
-▒╓,:██████H       [█▓▓╣▓█████████████████╦     GPU             : CUDA-accelerated PyTorch
-   j██████         '"╙█▓███████████████████    Memory          : 0 commits
-         Disk            : 276,439 lines of code
+ ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       
+  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       CPU             : Healthcare ML, Time Series Forecasting
+   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████                         └─ Time Series Forecasting
+    █████  █_         ,█████████████████                         └─ Deep Learning Research
+     ████   ███▄▄▄▓   ██████████████████                         └─ Full-Stack Development
+     █████  ██████   ╫▓██▓██████████████                         └─ Healthcare Analytics
+     █████   ████   ┌╠╠▓▓██████████████        
+_   ╓█████   `██   ,╣╬╬▓████████████████       GPU             : CUDA-accelerated PyTorch
+▒╓,:██████H       [█▓▓╣▓█████████████████╦     Memory          : 0 commits
+   j██████         '"╙█▓███████████████████    Disk            : 276,370 lines of code
          ████████████████████████████████████████████████████████████████████████████████
 ```
 
 
 ---
 
+## About Me
+
+hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master’s in applied data science. right now, I’m applying for data science and ML roles. please feel free to check out the model cards and repositories below!
+
+some of my favorite projects are:
+- predicting drug timing from gene expression data with an AutoEncoder–CNN, to be published in BIOINFORMATICS 2026!
+- RetailPRED, a production-grade demand forecasting system on GCP with Airflow and ensemble models.
+
+what i’m working on now: an Amazon Warehouse Operations Analytics externship, where I'm building a NLP and RAG pipeline for workforce analytics!
+
+---
+
+## Technical Stack
+
+### Languages & Tools
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### ML/AI Frameworks
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-337ab7?style=for-the-badge&logo=xgboost&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+
+### Data & Visualization
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+### Infrastructure & MLOps
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+
+**Specializations:** Time Series Forecasting • NLP • Computer Vision • Feature Engineering • Statistical Modeling • Model Interpretability (SHAP)
+
+
+
+---
+
+## Connect With Me!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/olivialiau)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:oliau@usc.edu)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oleeveeuh)
+
+</div>
+
+---
+
 ##  Featured Projects
 
 ```ascii
-┌────────────────────────────────────────────────────────────────────────────┐
-│                         MOST RECENT PROJECT                                │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│  [TAG] [PROJECT NAME HERE]                                                 │
-│  ──────────────────────────────────────────────────────────────────────    │
-│                                                                            │
-│  Description: [Add your project description here]                          │
-│                                                                            │
-│  Key Achievements:                                                         │
-│     • [Achievement 1 - quantify impact if possible]                        │
-│     • [Achievement 2 - mention specific metrics]                           │
-│     • [Achievement 3 - highlight technical innovation]                     │
-│                                                                            │
-│  Tech Stack: [Python, PyTorch, React, etc.]                                │
-│                                                                            │
-│  Links: [GitHub Repo] • [Live Demo] • [Documentation]                      │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-
-
-
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: WPI-UMASS TOD Prediction                                                │
+│  *MODEL CARD: WPI-UMASS TOD Prediction*                                              │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : Time-of-Death Regression (AutoEncoder-CNN)                     │
@@ -95,7 +135,7 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: ICON-DBSO Prediction                                                    │
+│  *MODEL CARD: ICON-DBSO Prediction*                                                  │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : DBS Outcome Binary Classifier                                  │
@@ -130,7 +170,7 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: MultiSDAR PD Classification                                             │
+│  *MODEL CARD: MultiSDAR PD Classification*                                           │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : Multimodal Parkinson's Disease Classifier                      │
@@ -164,7 +204,7 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  MODEL CARD: Hope Services Analytics                                                 │
+│  *MODEL CARD: Hope Services Analytics*                                               │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : Supervised Anomaly Detection (Random Forest)                   │
@@ -234,7 +274,7 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  SYSTEM CARD: ReviewInsight AI                                                       │
+│  *SYSTEM CARD: ReviewInsight AI*                                                     │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  System Type        : RAG-powered NLP Analytics Pipeline                             │
@@ -290,95 +330,13 @@ _   ╓█████   `██   ,╣╬╬▓██████████�
 
 ---
 
-## 👋 About Me
-
-I'm a Computer Science student at USC pursuing a Master's in Applied Data Science, focused on building and deploying machine learning systems for real-world problems. My interests include healthcare ML, time-series forecasting, NLP, and model interpretability, with an emphasis on taking models from research to production.
-
-I enjoy working across the full ML pipeline—from messy data and feature engineering to evaluation, explainability, and deployment.
-
-**Recent Work:**
-- • Drug timing prediction using gene expression data (AutoEncoder–CNN on 20k+ genes; 68% improvement over baseline)
-- • Parkinson's disease detection and DBS outcome prediction using multimodal ML, CNNs, and SHAP explainability
-- • RetailPRED: production-grade demand forecasting system with Airflow, GCP, and ensemble models
-- • Pediatric health anomaly detection using Random Forests to flag high-risk treatment cases
-
-**Currently:**
-- • Applying for data science and machine learning roles
-- • Amazon Business Analytics Extern: NLP, RAG pipelines, workforce analytics
-- • Building production ML pipelines for time-series modeling with explainability
-- • Exploring Kaggle-style competitions to sharpen fast iteration and feature engineering
-
----
-
-## 🛠️ Technical Stack
-
-### Languages & Tools
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### ML/AI Frameworks
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337ab7?style=for-the-badge&logo=xgboost&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-
-### Data & Visualization
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### Infrastructure & MLOps
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![CI/CD](https://img.shields.io/badge/CI/CD-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-
-**Specializations:** Time Series Forecasting • NLP • Computer Vision • Feature Engineering • Statistical Modeling • Model Interpretability (SHAP)
-
----
-
-## 📚 Publications & Writing
+## Employer?
 
 <div align="center">
 
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@your-username)
-[![Dev.to](https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white)](https://dev.to/your-username)
+### 📄 **[Download My Resume](https://github.com/oleeveeuh/resume.pdf)**
 
-</div>
-
-
----
-
-## 📫 Connect With Me!
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@usc.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/oleeveeuh)
-
-</div>
-
----
-
-## 💼 Employer?
-
-<div align="center">
-
-### 📄 **[Download My Resume](https://github.com/oleeveeuh/resume/raw/main/resume.pdf)**
-
-*Currently seeking full-time data science and ML engineering opportunities*
+*Currently seeking internships in data science, engineering, and ML.*
 
 **Important:** I'm actively applying for roles in SF Bay Area focusing on healthcare ML and time series forecasting.
 
