@@ -1,31 +1,31 @@
 ```ascii
 
 
-,,,_,,,___                         ────────────────────────────────────────
-       _,╔▓██████████████▄;,,_                 Name            : OLIVIA LIAU
-      _██████████████████████▄,                Education       : USC CS + Applied DS '27
-     :██████▌╙╙▀████████████████_              Age             : 20 years
-    _█████`       ``▓████████████_             Specialization  : End-to-end ML Systems
-    ╔████            ╙████████████▄_           
-   ┌████▌             ╙█████████████,_         OS              : Full-Stack ML Engineer
-   ▓████▄,_       _,,╔▄██████████████ⁿ_        Kernel          : Python 3.11.x, PyTorch 2.x
-  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Uptime          : 1,984 days coding
- ┌███████▐█▄     -╓'██████████████████         Packages        : 9 repositories
-_▓█████╙`         ``ⁿ¬` `▀████████████H        Shell           : bash, zsh, python
-`█████                   '▓████████████        
-┌█████       ____ _       ╙▓███████████        Resolution      : 98% RMSE improvement ⚡
-▐██████,_   ``'` `         ╚▓██████████        DE              : VSCode, Colab, PyCharm
- ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       WM              : GitHub Actions
-  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       
-   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████       CPU             : End-to-end ML Systems
-    █████  █_         ,█████████████████                         └─ Time Series Forecasting
-     ████   ███▄▄▄▓   ██████████████████                         └─ Deep Learning Research
-     █████  ██████   ╫▓██▓██████████████                         └─ Full-Stack Development
-     █████   ████   ┌╠╠▓▓██████████████                          └─ Healthcare Analytics
-_   ╓█████   `██   ,╣╬╬▓████████████████       
-▒╓,:██████H       [█▓▓╣▓█████████████████╦     GPU             : CUDA-accelerated PyTorch
-   j██████         '"╙█▓███████████████████    Memory          : 0 commits
-         Disk            : 276,368 lines of code
+,            ────────────────────────────────────────
+             ,,,_,,,___                         Name            : OLIVIA LIAU
+       _,╔▓██████████████▄;,,_                 Education       : USC CS + Applied DS '27
+      _██████████████████████▄,                Age             : 20 years
+     :██████▌╙╙▀████████████████_              Specialization  : End-to-end ML Systems
+    _█████`       ``▓████████████_             
+    ╔████            ╙████████████▄_           OS              : Full-Stack ML Engineer
+   ┌████▌             ╙█████████████,_         Kernel          : Python 3.11.x, PyTorch 2.x
+   ▓████▄,_       _,,╔▄██████████████ⁿ_        Uptime          : 1,984 days coding
+  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Packages        : 9 repositories
+ ┌███████▐█▄     -╓'██████████████████         Shell           : bash, zsh, python
+_▓█████╙`         ``ⁿ¬` `▀████████████H        
+`█████                   '▓████████████        Resolution      : 98% RMSE improvement ⚡
+┌█████       ____ _       ╙▓███████████        DE              : VSCode, Colab, PyCharm
+▐██████,_   ``'` `         ╚▓██████████        WM              : GitHub Actions
+ ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       
+  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       CPU             : End-to-end ML Systems
+   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████                         └─ Time Series Forecasting
+    █████  █_         ,█████████████████                         └─ Deep Learning Research
+     ████   ███▄▄▄▓   ██████████████████                         └─ Full-Stack Development
+     █████  ██████   ╫▓██▓██████████████                         └─ Healthcare Analytics
+     █████   ████   ┌╠╠▓▓██████████████        
+_   ╓█████   `██   ,╣╬╬▓████████████████       GPU             : CUDA-accelerated PyTorch
+▒╓,:██████H       [█▓▓╣▓█████████████████╦     Memory          : 0 commits
+   j██████         '"╙█▓███████████████████    Disk            : 276,368 lines of code
          ────────────────────────────────────────
 ```
 
