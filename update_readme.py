@@ -121,6 +121,10 @@ def get_github_stats(username, token):
         except Exception as e:
             print(f"Error fetching GitHub stats: {e}")
             stats["commits"] = 0
+        
+    except Exception as e:
+        print(f"Error fetching GitHub stats: {e}")
+        stats["commits"] = 0
 
     return stats
 
