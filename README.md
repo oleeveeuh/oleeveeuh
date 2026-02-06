@@ -4,7 +4,7 @@
 ,        olivia@github
                                           ,    ──────────────────────────────────────────────────
             ,,,_,,,___                         Name            : OLIVIA LIAU
-       _,╔▓██████████████▄;,,_                 Education       : USC CS + Applied Data Science '27
+       _,╔▓██████████████▄;,,_                 Education       : USC CS + Applied DS '27
       _██████████████████████▄,                Age             : 20 years
      :██████▌╙╙▀████████████████_              Specialization  : End-to-end ML Systems
     _█████`       ``▓████████████_             
