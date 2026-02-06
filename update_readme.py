@@ -122,7 +122,7 @@ def get_github_stats(username, token):
             print(f"Error fetching GitHub stats: {e}")
             stats["commits"] = 0
 
-        return stats
+    return stats
 
 
 def get_top_languages(languages_dict, top_n=4):
