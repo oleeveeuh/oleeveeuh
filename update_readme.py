@@ -21,7 +21,6 @@ YOUR_SPECIALTY = "End-to-end ML Systems"
 # Your ASCII art photo - paste yours here
 YOUR_ASCII_PHOTO = r"""
                                           ,
-                                          ,
             ,,,_,,,___                     
        _,╔▓██████████████▄;,,_             
       _██████████████████████▄,            
