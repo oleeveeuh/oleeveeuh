@@ -141,7 +141,7 @@ def generate_readme(stats):
     # Info lines (right side)
     username_lower = YOUR_NAME.split()[0].lower()
     info_lines = [
-        "@olivialiau_________________________________"
+        "@olivialiau_________________________________",
         f"Name            : {YOUR_NAME}",
         f"Education       : {YOUR_SCHOOL}",
         f"Age             : {age} years",
@@ -150,18 +150,18 @@ def generate_readme(stats):
         f"Kernel          : Python 3.11.x, PyTorch 2.x",
         f"Shell           : bash, zsh, python",
         "",
-        "contact______________________________________"
+        "contact______________________________________",
         f"email              : oliau@usc.edu",
         f"linkedin              : olivialiau",
         "",
-        "olivia@liau_________________________________"
+        "olivia@liau__________________________________",
         f"CPU             : {YOUR_SPECIALTY}",
         f"                  └─ Time Series Forecasting",
         f"                  └─ Deep Learning Research",
         f"                  └─ Full-Stack Development",
         f"                  └─ Healthcare Analytics",
         "",
-        "github stats_________________________________"
+        "github stats_________________________________",
         f"Memory          : {format_number(stats['commits'])} commits",
         f"Uptime          : {days_coding:,} days coding",
         f"Packages        : {stats['repos']} repositories",
