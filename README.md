@@ -1,32 +1,32 @@
 ```ascii
 
 
-,            ────────────────────────────────────────
-            ,,,_,,,___                         Name            : OLIVIA LIAU
-       _,╔▓██████████████▄;,,_                 Education       : USC CS + Applied DS '27
-      _██████████████████████▄,                Age             : 20 years
-     :██████▌╙╙▀████████████████_              Specialization  : End-to-end ML Systems
-    _█████`       ``▓████████████_             
-    ╔████            ╙████████████▄_           OS              : Full-Stack ML Engineer
-   ┌████▌             ╙█████████████,_         Kernel          : Python 3.11.x, PyTorch 2.x
-   ▓████▄,_       _,,╔▄██████████████ⁿ_        Uptime          : 1,984 days coding
-  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Packages        : 9 repositories
- ┌███████▐█▄     -╓'██████████████████         Shell           : bash, zsh, python
-_▓█████╙`         ``ⁿ¬` `▀████████████H        
-`█████                   '▓████████████        Resolution      : 98% RMSE improvement ⚡
-┌█████       ____ _       ╙▓███████████        DE              : VSCode, Colab, PyCharm
-▐██████,_   ``'` `         ╚▓██████████        WM              : GitHub Actions
- ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       
-  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       CPU             : End-to-end ML Systems
-   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████                         └─ Time Series Forecasting
-    █████  █_         ,█████████████████                         └─ Deep Learning Research
-     ████   ███▄▄▄▓   ██████████████████                         └─ Full-Stack Development
-     █████  ██████   ╫▓██▓██████████████                         └─ Healthcare Analytics
-     █████   ████   ┌╠╠▓▓██████████████        
-_   ╓█████   `██   ,╣╬╬▓████████████████       GPU             : CUDA-accelerated PyTorch
-▒╓,:██████H       [█▓▓╣▓█████████████████╦     Memory          : 0 commits
-   j██████         '"╙█▓███████████████████    Disk            : 276,367 lines of code
-         ────────────────────────────────────────
+___________________________________________    Name            : OLIVIA LIAU
+            ,,,_,,,___                         Education       : USC CS + Applied DS '27
+       _,╔▓██████████████▄;,,_                 Age             : 20 years
+      _██████████████████████▄,                Specialization  : End-to-end ML Systems
+     :██████▌╙╙▀████████████████_              
+    _█████`       ``▓████████████_             OS              : Full-Stack ML Engineer
+    ╔████            ╙████████████▄_           Kernel          : Python 3.11.x, PyTorch 2.x
+   ┌████▌             ╙█████████████,_         Uptime          : 1,984 days coding
+   ▓████▄,_       _,,╔▄██████████████ⁿ_        Packages        : 9 repositories
+  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Shell           : bash, zsh, python
+ ┌███████▐█▄     -╓'██████████████████         
+_▓█████╙`         ``ⁿ¬` `▀████████████H        Resolution      : 98% RMSE improvement ⚡
+`█████                   '▓████████████        DE              : VSCode, Colab, PyCharm
+┌█████       ____ _       ╙▓███████████        WM              : GitHub Actions
+▐██████,_   ``'` `         ╚▓██████████        
+ ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       CPU             : End-to-end ML Systems
+  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████                         └─ Time Series Forecasting
+   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████                         └─ Deep Learning Research
+    █████  █_         ,█████████████████                         └─ Full-Stack Development
+     ████   ███▄▄▄▓   ██████████████████                         └─ Healthcare Analytics
+     █████  ██████   ╫▓██▓██████████████       
+     █████   ████   ┌╠╠▓▓██████████████        GPU             : CUDA-accelerated PyTorch
+_   ╓█████   `██   ,╣╬╬▓████████████████       Memory          : 0 commits
+▒╓,:██████H       [█▓▓╣▓█████████████████╦     Disk            : 276,368 lines of code
+   j██████         '"╙█▓███████████████████    
+___________________________________________    
 ```
 
 
