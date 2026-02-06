@@ -259,7 +259,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  *MODEL CARD: WPI-UMASS TOD Prediction*                                              │
+│                        MODEL CARD: WPI-UMASS TOD Prediction                          │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : Time-of-Death Regression (AutoEncoder-CNN)                     │
@@ -294,7 +294,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  *MODEL CARD: ICON-DBSO Prediction*                                                  │
+│                         MODEL CARD: ICON-DBSO Prediction                             │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : DBS Outcome Binary Classifier                                  │
@@ -329,7 +329,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  *MODEL CARD: MultiSDAR PD Classification*                                           │
+│                      MODEL CARD: MultiSDAR PD Classification                         │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : Multimodal Parkinson's Disease Classifier                      │
@@ -363,7 +363,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  *MODEL CARD: Hope Services Analytics*                                               │
+│                         MODEL CARD: Hope Services Analytics                          │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  Model Type         : Supervised Anomaly Detection (Random Forest)                   │
@@ -397,7 +397,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  SYSTEM CARD: RetailPRED                                                             │
+│                             SYSTEM CARD: RetailPRED                                  │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  System Type        : Production MLOps Pipeline                                      │
@@ -433,7 +433,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
-│  *SYSTEM CARD: ReviewInsight AI*                                                     │
+│                           SYSTEM CARD: ReviewInsight AI                              │
 ├──────────────────────────────────────────────────────────────────────────────────────┤
 │                                                                                      │
 │  System Type        : RAG-powered NLP Analytics Pipeline                             │
@@ -515,8 +515,8 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
      ∩_∩
     („• ֊ •„)♡
    ┏━U━U━━━━━━━━━━━━━━━━━━━━━━━━━┓
-   ┃  thanks for visiting!        ┃
-   ┃  made with ♡ by olivia       ┃
+   ┃  thanks for visiting!       ┃
+   ┃  made with ♡ by olivia      ┃
    ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 ```
 
