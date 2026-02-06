@@ -505,7 +505,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username={oleeveeuh}&color=blueviolet&style=for-the-badge)
+![Profile Views](https://komarev.com/ghpvc/?username={GITHUB_USERNAME}&color=blueviolet&style=for-the-badge)
 
 <sub>Last updated: {datetime.now().strftime('%B %d, %Y')} • Auto-updated daily via GitHub Actions</sub>
 
@@ -543,8 +543,7 @@ def main():
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(readme)
     
-    print("✓ README.md updated successfully!")
-    print("📸 ASCII photo on left, info on right - neofetch style!")
+    print("README.md updated successfully!")
 
 if __name__ == '__main__':
     main()
