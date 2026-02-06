@@ -166,7 +166,6 @@ def generate_readme(stats):
         f"GPU             : CUDA-accelerated PyTorch",
         f"Memory          : {format_number(stats['commits'])} commits",
         f"Disk            : {format_number(stats['loc'])} lines of code",
-        "█" * 80
     ]
     
     # Combine photo and info side by side
