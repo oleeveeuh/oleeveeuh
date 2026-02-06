@@ -1,30 +1,30 @@
 ```ascii
 
 
-___________________________________________    Name            : OLIVIA LIAU
+___________________________________________    @olivialiau_________________________________Name            : OLIVIA LIAU
             ,,,_,,,___                         Education       : USC CS + Applied DS '27
        _,╔▓██████████████▄;,,_                 Age             : 20 years
-      _██████████████████████▄,                Specialization  : End-to-end ML Systems
-     :██████▌╙╙▀████████████████_              
-    _█████`       ``▓████████████_             OS              : Full-Stack ML Engineer
-    ╔████            ╙████████████▄_           Kernel          : Python 3.11.x, PyTorch 2.x
-   ┌████▌             ╙█████████████,_         Uptime          : 1,984 days coding
-   ▓████▄,_       _,,╔▄██████████████ⁿ_        Packages        : 9 repositories
-  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       Shell           : bash, zsh, python
+      _██████████████████████▄,                
+     :██████▌╙╙▀████████████████_              OS              : MacOS 26.0.1
+    _█████`       ``▓████████████_             Kernel          : Python 3.11.x, PyTorch 2.x
+    ╔████            ╙████████████▄_           Shell           : bash, zsh, python
+   ┌████▌             ╙█████████████,_         
+   ▓████▄,_       _,,╔▄██████████████ⁿ_        contact______________________________________email              : oliau@usc.edu
+  ▐████▓`"╙²⌐    ^"` _  ▓█████████████ `       linkedin              : olivialiau
  ┌███████▐█▄     -╓'██████████████████         
-_▓█████╙`         ``ⁿ¬` `▀████████████H        Resolution      : 98% RMSE improvement ⚡
-`█████                   '▓████████████        DE              : VSCode, Colab, PyCharm
-┌█████       ____ _       ╙▓███████████        WM              : GitHub Actions
-▐██████,_   ``'` `         ╚▓██████████        
- ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_       CPU             : End-to-end ML Systems
-  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████                         └─ Time Series Forecasting
-   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████                         └─ Deep Learning Research
-    █████  █_         ,█████████████████                         └─ Full-Stack Development
-     ████   ███▄▄▄▓   ██████████████████                         └─ Healthcare Analytics
-     █████  ██████   ╫▓██▓██████████████       
-     █████   ████   ┌╠╠▓▓██████████████        GPU             : CUDA-accelerated PyTorch
-_   ╓█████   `██   ,╣╬╬▓████████████████       Memory          : 0 commits
-▒╓,:██████H       [█▓▓╣▓█████████████████╦     Disk            : 276,368 lines of code
+_▓█████╙`         ``ⁿ¬` `▀████████████H        olivia@liau_________________________________CPU             : End-to-end ML Systems
+`█████                   '▓████████████                          └─ Time Series Forecasting
+┌█████       ____ _       ╙▓███████████                          └─ Deep Learning Research
+▐██████,_   ``'` `         ╚▓██████████                          └─ Full-Stack Development
+ ███████_ ╓╓▄@xxx*x╔▄_     |▓██████████_                         └─ Healthcare Analytics
+  ███████╓ `Γ` ¬¬ `,╙`   _╔▓████████████       
+   ███████Ü `Dφ╗@▒╩H` ,_╓▄██████████████       github stats_________________________________Memory          : 0 commits
+    █████  █_         ,█████████████████       Uptime          : 1,984 days coding
+     ████   ███▄▄▄▓   ██████████████████       Packages        : 9 repositories
+     █████  ██████   ╫▓██▓██████████████       Disk            : 276,369 lines of code
+     █████   ████   ┌╠╠▓▓██████████████        
+_   ╓█████   `██   ,╣╬╬▓████████████████       
+▒╓,:██████H       [█▓▓╣▓█████████████████╦     
    j██████         '"╙█▓███████████████████    
 ___________________________________________    
 ```
