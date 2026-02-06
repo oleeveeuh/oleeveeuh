@@ -171,12 +171,12 @@ def generate_readme(stats):
         "INTERESTS____________________________________",
         f"CPU.....: {YOUR_SPECIALTY}",
         f"                   └─ Time Series Forecasting",
-        f"                    └─ Deep Learning Research",
-        f"                    └─ Full-Stack Development",
-        f"                     └─ Healthcare Analytics",
+        f"                   └─ Deep Learning Research",
+        f"                   └─ Full-Stack Development",
+        f"                   └─ Healthcare Analytics",
         "",
         "GITHUB STATS_________________________________",
-        f"Memory............................. {format_number(stats['commits'])} commits",
+        f"Memory........................... {format_number(stats['commits'])} commits",
         f"Uptime..................... {days_coding:,} days coding",
         f"Packages...................... {stats['repos']} repositories",
         f"Disk................... {format_number(stats['loc'])} lines of code",
@@ -209,11 +209,11 @@ def generate_readme(stats):
 
 hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master’s in applied data science. right now, I’m applying for data science and ML roles. please feel free to check out the model cards and repositories below!
 
-*some of my favorite projects:*
+**some of my favorite projects:**
 - predicting drug timing from gene expression data with an AutoEncoder–CNN, to be published in BIOINFORMATICS 2026!
 - RetailPRED, a production-grade demand forecasting system on GCP with Airflow and ensemble models.
 
-*what i’m working on now:* an Amazon Warehouse Operations Analytics externship, where I'm building a NLP and RAG pipeline for workforce analytics!
+**what i’m working on now:** an Amazon Warehouse Operations Analytics externship, where I'm building a NLP and RAG pipeline for workforce analytics!
 
 ---
 
