@@ -192,7 +192,7 @@ def generate_readme(stats):
 
 ---
 
-## About Me
+## about me
 
 hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master’s in applied data science. right now, I’m applying for data science and ML roles. please feel free to check out the model cards and repositories below!
 
@@ -204,9 +204,9 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ---
 
-## Technical Stack
+## technical stack
 
-### Languages & Tools
+### languages & tools
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
@@ -216,7 +216,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-### ML/AI Frameworks
+### ML/AI frameworks
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
@@ -224,13 +224,13 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 ![XGBoost](https://img.shields.io/badge/XGBoost-337ab7?style=for-the-badge&logo=xgboost&logoColor=white)
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
-### Data & Visualization
+### data & visualization
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### Infrastructure & MLOps
+### infrastructure & MLOps
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apache-airflow&logoColor=white)
@@ -243,7 +243,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ---
 
-## Connect With Me!
+## connect with me!
 
 <div align="center">
 
@@ -255,7 +255,7 @@ what i’m working on now: an Amazon Warehouse Operations Analytics externship, 
 
 ---
 
-##  Featured Projects
+##  featured projects
 
 ```ascii
 ┌──────────────────────────────────────────────────────────────────────────────────────┐
