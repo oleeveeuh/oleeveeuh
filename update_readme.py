@@ -506,8 +506,7 @@ hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master�
 
 <div align="center">
 
-### 📄 **[download my resume](https://github.com/{GITHUB_USERNAME}/OLIVIALIAU_resume.pdf)**
-
+### **[download my resume](https://github.com/oleeveeuh/oleeveeuh/blob/main/OLIVIALIAU_resume.pdf)**
 *currently seeking internships in data science, engineering, and ML in SF Bay Area*
 </div>
 
