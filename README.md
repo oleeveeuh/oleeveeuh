@@ -22,10 +22,10 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
     █████  █_         ,█████████████████                                 └─ Healthcare Analytics
      ████   ███▄▄▄▓   ██████████████████              
      █████  ██████   ╫▓██▓██████████████              GITHUB STATS_________________________________
-     █████   ████   ┌╠╠▓▓██████████████               Memory........................... 220 commits
-_   ╓█████   `██   ,╣╬╬▓████████████████              Uptime..................... 2,223 days coding
-▒╓,:██████H       [█▓▓╣▓█████████████████╦            Packages...................... 9 repositories
-   j██████         '"╙█▓███████████████████           Disk................... 276,260 lines of code
+     █████   ████   ┌╠╠▓▓██████████████               Memory........................... 238 commits
+_   ╓█████   `██   ,╣╬╬▓████████████████              Uptime..................... 2,224 days coding
+▒╓,:██████H       [█▓▓╣▓█████████████████╦            Packages...................... 10 repositories
+   j██████         '"╙█▓███████████████████           Disk................... 161,145 lines of code
 ___________________________________________           
 ```
 
@@ -343,7 +343,7 @@ hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master�
 
 ![Profile Views](https://komarev.com/ghpvc/?username=oleeveeuh&color=blueviolet&style=for-the-badge)
 
-<sub>Last updated: October 03, 2026 • Auto-updated daily via GitHub Actions</sub>
+<sub>Last updated: October 04, 2026 • Auto-updated daily via GitHub Actions</sub>
 
 <br><br>
 
