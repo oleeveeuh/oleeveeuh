@@ -23,7 +23,7 @@ _▓█████╙`         ``ⁿ¬` `▀███████████�
      ████   ███▄▄▄▓   ██████████████████              
      █████  ██████   ╫▓██▓██████████████              GITHUB STATS_________________________________
      █████   ████   ┌╠╠▓▓██████████████               Memory........................... 241 commits
-_   ╓█████   `██   ,╣╬╬▓████████████████              Uptime..................... 2,230 days coding
+_   ╓█████   `██   ,╣╬╬▓████████████████              Uptime..................... 2,231 days coding
 ▒╓,:██████H       [█▓▓╣▓█████████████████╦            Packages...................... 10 repositories
    j██████         '"╙█▓███████████████████           Disk................... 162,102 lines of code
 ___________________________________________           
@@ -343,7 +343,7 @@ hello! i’m olivia, a junior at USC doing my dual bachelor’s in cs + master�
 
 ![Profile Views](https://komarev.com/ghpvc/?username=oleeveeuh&color=blueviolet&style=for-the-badge)
 
-<sub>Last updated: October 10, 2026 • Auto-updated daily via GitHub Actions</sub>
+<sub>Last updated: October 11, 2026 • Auto-updated daily via GitHub Actions</sub>
 
 <br><br>
 
